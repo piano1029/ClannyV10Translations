@@ -1,0 +1,26 @@
+{
+    "data": {
+        "index": {
+            "ComponentEntryPointUndefinedTitle": "FATAL: ComponentEntryPoint was not defined",
+            "ComponentEntryPointUndefinedDescr": "__**Contact {{COM:users.piano1029}} as soon as possible**__\n\n{{COM:links.github}}",
+            "VerificationRequiredTitle": "Roblox Verification Required",
+            "VerificationRequiredDescr": "In order to use Clanny you must verify\n\n`/verify`",
+            "NoAccessToBeta": "You do not have access to this beta version of Clanny",
+            "InsufficientPermissionsTitle": "Insufficient permissions",
+            "InsufficientPermissionsDescr": "You need to have {{REQUIRED_PERMS}} permissions but you have {{USER_PERMS}} permissions!",
+            "IncorrectArgumentsTitle": "Incorrect Arguments",
+            "IncorrectArgumentsDescr": "The underlined argument is incorrect/missing\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors.OptionalOrRequired}}",
+            "DoesNotExistOnRobloxTitle": "User does not exist on Roblox",
+            "DoesNotExistOnRobloxDescr": "The underlined argument got a username which does not exist on Roblox\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors.OptionalOrRequired}}",
+            "UnableToParseTitle": "Incorrect Arguments",
+            "UnableToParseDescr": "The underlined argument was unable to get parsed by SmartArgs\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors.OptionalOrRequired}}",
+            "UserNotVerifiedTitle": "User has not been verified with Clanny",
+            "UserNotVerifiedDescr": "The underlined argument got a user which has not been verified with Clanny. Please ask them to run \`/verify\`\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors.OptionalOrRequired}}"
+        }
+    },
+    "refs": {
+        "ArgumentsErrors": {
+            "OptionalOrRequired": "\n\n*\`(Argument)\` Is optional, \`[Argument]\` is required*"
+        }
+    }
+}
