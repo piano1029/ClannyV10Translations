@@ -1,0 +1,36 @@
+{
+    "data": {
+        "permissionLevels": {
+            "Normal": "Normaal",
+            "Officer": "Officier",
+            "HICOM": "HICOM",
+            "Owner": "Eigenaar",
+            "GroupOwner": "Groep Eigenaar",
+            "Developer": "Ontwikkelaar",
+            "Impossible": "Onmogelijk"
+        },
+        "index": {
+            "ComponentEntryPointUndefinedTitle": "FATALE FOUT: ComponentEntryPoint is `undefined`",
+            "ComponentEntryPointUndefinedDescr": "__**Neem zo snel mogelijk contact op met {{COM:users.piano1029}}**__\n\n{{COM:links.supportServer}}",
+            "VerificationRequiredTitle": "Roblox Verificatie Vereist",
+            "VerificationRequiredDescr": "Om Clanny te kunnen gebruiken moet je verifiëren\n\n`/verify`",
+            "NoAccessToBeta": "Je hebt geen toegang tot deze Beta versie van Clanny",
+            "InsufficientPermissionsTitle": "Incorrecte permissies",
+            "InsufficientPermissionsDescr": "Je hebt {{REQUIRED_PERMS}} permissies nodig maar je hebt {{USER_PERMS}} permissies!",
+            "IncorrectArgumentsTitle": "Incorrecte argumenten",
+            "IncorrectArgumentsDescr": "Het onderstreepte argument is incorrect/mist\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors.OptionalOrRequired}}",
+            "DoesNotExistOnRobloxTitle": "Gebruiker bestaat niet op Roblox",
+            "DoesNotExistOnRobloxDescr": "Het onderstreepte argument kreeg een gebruikersnaam die niet bestaat op Roblox\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors.OptionalOrRequired}}",
+            "UnableToParseTitle": "Incorrecte argumenten",
+            "UnableToParseDescr": "Het onderstreepte argument kon niet worden gelezen door SmartArgs\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors.OptionalOrRequired}}",
+            "UserNotVerifiedTitle": "Gebruiker is niet geverifieerd met Clanny",
+            "UserNotVerifiedDescr": "Het onderstreepte argument kreeg een gebruiker die niet geverifieerd is met Clanny. Vraag die persoon astublieft om `/verify` te doen\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors.OptionalOrRequired}}",
+            "PrefixBasedCMDDeprecation": "Clanny doesn't use prefix based commands anymore, use the slash commands from now on\n\n{{SLASHCOMMAND}}"
+        }
+    },
+    "refs": {
+        "ArgumentsErrors": {
+            "OptionalOrRequired": "\n\n*`(Argument)` Is optioneel, `[Argument]` is vereist*"
+        }
+    }
+}
