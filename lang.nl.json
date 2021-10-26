@@ -26,6 +26,10 @@
             "UserNotVerifiedTitle": "Gebruiker is niet geverifieerd met Clanny",
             "UserNotVerifiedDescr": "Het onderstreepte argument kreeg een gebruiker die niet geverifieerd is met Clanny. Vraag die persoon astublieft om `/verify` te doen\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors.OptionalOrRequired}}",
             "PrefixBasedCMDDeprecation": "Clanny doesn't use prefix based commands anymore, use the slash commands from now on\n\n{{SLASHCOMMAND}}"
+        },
+        "language": {
+            "SelectLanguageBelow": "Selecteer je taal hier beneden.\n\nAls je taal niet op de lijst staat, waarom vertaal je Clanny niet naar de taal op WORK_IN_PROGRESS",
+            "LanguageUpdatedResponse": "Je taal is nu {{LANGUAGENAME}}"
         }
     },
     "refs": {

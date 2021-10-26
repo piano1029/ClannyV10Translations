@@ -26,6 +26,17 @@
             "UserNotVerifiedTitle": "User has not been verified with Clanny",
             "UserNotVerifiedDescr": "The underlined argument got a user which has not been verified with Clanny. Please ask them to run `/verify`\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors.OptionalOrRequired}}",
             "PrefixBasedCMDDeprecation": "Clanny doesn't use prefix based commands anymore, use the slash commands from now on\n\n{{SLASHCOMMAND}}"
+        },
+        "language": {
+            "SelectLanguageBelow": "Select your language below.\n\nIf your language is not on the list, consider adding it at WORK_IN_PROGRESS",
+            "LanguageUpdatedResponse": "Your language is now {{LANGUAGENAME}}"
+        },
+        "rank": {
+            "SelectRankBelow": "Select the rank to edit below.\nIf your rank is not on the list run `/rank update`",
+            "RankUpdated": "Rank Updated",
+            "RoleUpdate": "{{RANKNAME}}'s role set to {{ROLE}}",
+            "ExpReqUpdate": "{{RANKNAME}}'s xp requirement set to {{XPREQ}}",
+            "PrefixUpdate": "{{RANKNAME}}'s prefix set to {{PREFIX}}"
         }
     },
     "refs": {
