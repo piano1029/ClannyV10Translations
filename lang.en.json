@@ -36,7 +36,42 @@
             "RankUpdated": "Rank Updated",
             "RoleUpdate": "{{RANKNAME}}'s role set to {{ROLE}}",
             "ExpReqUpdate": "{{RANKNAME}}'s xp requirement set to {{XPREQ}}",
-            "PrefixUpdate": "{{RANKNAME}}'s prefix set to {{PREFIX}}"
+            "PrefixUpdate": "{{RANKNAME}}'s prefix set to {{PREFIX}}",
+            "IncorrectRank": "Incorrect Rank",
+            "RankDoesNotExist": "The rank specified does not exist in your group",
+            "LockStatus": "Rank is currently {{STATUS}}",
+            "Unlocked": "Unlocked",
+            "Locked": "Locked",
+            "Unlock": "Unlock",
+            "Lock": "Lock",
+            "unlocked": "unlocked",
+            "locked": "locked",
+            "unlock": "unlock",
+            "lock": "lock",
+            "__note1": "Parts of messages can have multiple copies of them",
+            "XPReqStatus": "XP Requirement: {{REQ}}",
+            "ChangeXPReq": "Change XP Requirement",
+            "ChangeRole": "Change Role",
+            "PrefixStatus": "Prefix Enabled: {{STATUS}}",
+            "PrefixStatus2": "Prefix: {{STATUS}}",
+            "ChangePrefix": "Change Prefix"
+        },
+        "xp": {
+            "__note1": "NY means 'not yours', Y means 'yours'!",
+            "__note2": "GO means 'group owner'!",
+            "ProgressTitleNY": "{{USERNAME}}'s progress",
+            "ProgressTitleY": "Your progress",
+            "ProgressDescriptionNYGO": "**{{USERNAME}}**\n\n{{USERNAME}} has {{XP}}xp!\n{{USERNAME}} owns this group, nice!",
+            "ProgressDescriptionNY": "**{{USERNAME}}**\n\n{{USERNAME}} has {{XP}}xp!\nTo reach {{NEXTRANK}} {{USERNAME}} needs {{XPFORNEXTRANK}} more xp!",
+            "ProgressDescriptionGO": "**{{USERNAME}}**\n\nYou have {{XP}}xp!\nYou own this group, nice!",
+            "ProgressDescription": "**{{USERNAME}}**\n\nYou have {{XP}}xp!\nTo reach {{NEXTRANK}} you need {{XPFORNEXTRANK}} more xp!"
+        },
+        "common": {
+            "Yes": "Yes",
+            "No": "No",
+            "yes": "yes",
+            "no": "no",
+            "NotApplicable": "N/A"
         }
     },
     "refs": {
