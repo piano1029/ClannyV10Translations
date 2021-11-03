@@ -64,7 +64,9 @@
             "ProgressDescriptionNYGO": "**{{USERNAME}}**\n\n{{USERNAME}} has {{XP}}xp!\n{{USERNAME}} owns this group, nice!",
             "ProgressDescriptionNY": "**{{USERNAME}}**\n\n{{USERNAME}} has {{XP}}xp!\nTo reach {{NEXTRANK}} {{USERNAME}} needs {{XPFORNEXTRANK}} more xp!",
             "ProgressDescriptionGO": "**{{USERNAME}}**\n\nYou have {{XP}}xp!\nYou own this group, nice!",
-            "ProgressDescription": "**{{USERNAME}}**\n\nYou have {{XP}}xp!\nTo reach {{NEXTRANK}} you need {{XPFORNEXTRANK}} more xp!"
+            "ProgressDescription": "**{{USERNAME}}**\n\nYou have {{XP}}xp!\nTo reach {{NEXTRANK}} you need {{XPFORNEXTRANK}} more xp!",
+            "GettingPromotedNY": "{{USERNAME}} should be getting promoted right now",
+            "GettingPromoted": "You should be getting promoted right now"
         },
         "common": {
             "Yes": "Yes",
