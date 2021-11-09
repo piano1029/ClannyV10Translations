@@ -66,7 +66,9 @@
             "ProgressDescriptionGO": "**{{USERNAME}}**\n\nYou have {{XP}}xp!\nYou own this group, nice!",
             "ProgressDescription": "**{{USERNAME}}**\n\nYou have {{XP}}xp!\nTo reach {{NEXTRANK}} you need {{XPFORNEXTRANK}} more xp!",
             "GettingPromotedNY": "{{USERNAME}} should be getting promoted right now",
-            "GettingPromoted": "You should be getting promoted right now"
+            "GettingPromoted": "You should be getting promoted right now",
+            "XPAddedTitle": "XP has been added successfully",
+            "XPAddedDesc": " **{{USERNAME}}**: {{OLD}} --> {{NEW}}"
         },
         "common": {
             "Yes": "Yes",
