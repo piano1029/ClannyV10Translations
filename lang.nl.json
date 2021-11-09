@@ -30,6 +30,50 @@
         "language": {
             "SelectLanguageBelow": "Selecteer je taal hier beneden.\n\nAls je taal niet op de lijst staat, waarom vertaal je Clanny niet naar de taal op WORK_IN_PROGRESS",
             "LanguageUpdatedResponse": "Je taal is nu {{LANGUAGENAME}}"
+        },
+        "rank": {
+            "SelectRankBelow": "Selecteer een rank om te bewerken.\nAls een rank niet op de lijst staat doe dan `/rank update`",
+            "RankUpdated": "Rank Geupdate",
+            "RoleUpdate": "{{RANKNAME}}'s role is nu {{ROLE}}",
+            "ExpReqUpdate": "{{RANKNAME}}'s xp vereiste is nu {{XPREQ}}",
+            "PrefixUpdate": "{{RANKNAME}}'s prefix is nu {{PREFIX}}",
+            "IncorrectRank": "Incorrecte Rank",
+            "RankDoesNotExist": "De rank bestaat niet in jouw group",
+            "LockStatus": "Rank is nu {{STATUS}}",
+            "Unlocked": "Ontgrendeld",
+            "Locked": "Op slot",
+            "Unlock": "Ontgrendel",
+            "Lock": "Versleutel",
+            "unlocked": "ontgrendeld",
+            "locked": "op slot",
+            "unlock": "ontgrendel",
+            "lock": "versleutel",
+            "__note1": "Parts of messages can have multiple copies of them",
+            "XPReqStatus": "XP Vereiste: {{REQ}}",
+            "ChangeXPReq": "Verander XP Vereiste",
+            "ChangeRole": "Verander Role",
+            "PrefixStatus": "Prefix aan: {{STATUS}}",
+            "PrefixStatus2": "Prefix: {{STATUS}}",
+            "ChangePrefix": "Verander Prefix"
+        },
+        "xp": {
+            "__note1": "NY means 'not yours', Y means 'yours'!",
+            "__note2": "GO means 'group owner'!",
+            "ProgressTitleNY": "{{USERNAME}}'s voortgang",
+            "ProgressTitleY": "Jouw voortgang",
+            "ProgressDescriptionNYGO": "**{{USERNAME}}**\n\n{{USERNAME}} heeft {{XP}}xp!\n{{USERNAME}} is de eigenaar van deze groep!",
+            "ProgressDescriptionNY": "**{{USERNAME}}**\n\n{{USERNAME}} heeft {{XP}}xp!\nOm {{NEXTRANK}} te behalen heeft {{USERNAME}} {{XPFORNEXTRANK}}xp nodig!",
+            "ProgressDescriptionGO": "**{{USERNAME}}**\n\nJij hebt {{XP}}xp!\nJij bent de eigenaar van deze groep!",
+            "ProgressDescription": "**{{USERNAME}}**\n\nJij hebt {{XP}}xp!\nOm {{NEXTRANK}} te behalen heb je {{XPFORNEXTRANK}}xp nodig!",
+            "GettingPromotedNY": "{{USERNAME}} wordt waarschijnlijk nu gepromoveerd",
+            "GettingPromoted": "Jij wordt waarschijnlijk nu gepromoveerd"
+        },
+        "common": {
+            "Yes": "Ja",
+            "No": "Nee",
+            "yes": "ja",
+            "no": "nee",
+            "NotApplicable": "N/A"
         }
     },
     "refs": {
