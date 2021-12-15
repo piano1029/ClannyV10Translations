@@ -70,12 +70,39 @@
             "XPAddedTitle": "XP has been added successfully",
             "XPAddedDesc": " **{{USERNAME}}**: {{OLD}} --> {{NEW}}"
         },
+        "audits": {
+            "ChannelUpdatedTitle": "The audits channel has been successfully updated",
+            "ChannelUpdatedDescr": "A webhook has been created to send the audits messages. If you have an anti raid bot like Wick make sure to put this webhook (Webhook ID: `{{ID}}`) on the anti spam whitelist",
+            "xpadded": "XP Added",
+            "xpremoved": "XP Removed",
+            "xpset": "XP Set",
+            "rankchanged": "Rank settings changed",
+            "ranksupdated": "Ranks updated",
+            "Status": "Status: {{STATUS}}",
+            "selectAuditTypeBelow": "Select an audit type to edit below",
+            "AuditLogs": "**Audit details**"
+        },
+        "auditLogging": {
+            "xpadded": "{{EXECUTOR}} added {{AMOUNT}}xp to {{CHANGEDUSER}}. {{OLDXP}} >>> {{NEWXP}}",
+            "xpremoved": "{{EXECUTOR}} removed {{AMOUNT}}xp from {{CHANGEDUSER}}. {{OLDXP}} >>> {{NEWXP}}",
+            "xpset": "{{EXECUTOR}} set {{CHANGEDUSER}}'s xp to {{AMOUNT}}xp. {{OLDXP}} >>> {{NEWXP}}",
+            "rankchanged": "{{EXECUTOR}} has changed rank settings",
+            "ranksupdated": "{{EXECUTOR}} has synchronized the group ranks"
+        },
         "common": {
             "Yes": "Yes",
             "No": "No",
             "yes": "yes",
             "no": "no",
-            "NotApplicable": "N/A"
+            "NotApplicable": "N/A",
+            "Enabled": "Enabled",
+            "Disabled": "Disabled",
+            "enabled": "enabled",
+            "disabled": "disabled",
+            "Enable": "Enable",
+            "Disable": "Disable",
+            "enable": "enable",
+            "disable": "disable"
         }
     },
     "refs": {
