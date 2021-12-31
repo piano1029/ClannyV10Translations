@@ -103,6 +103,16 @@
             "previous": "Previous",
             "next": "Next"
         },
+        "promotedemote": {
+            "promoteSuccess": "{{USER}} has successfully been promoted to {{NEWRANK}} from {{OLDRANK}}",
+            "demoteSuccess" : "{{USER}} has successfully been demoted to {{NEWRANK}} from {{OLDRANK}}",
+            "actionFailedTitle": "Whoops! Something went wrong",
+            "actionFailed": "{{ACTION}} has failed.\n\n{{ERROR}}\n\nIf you do not understand this error please go to [WORK IN PROGRESS].",
+            "promote": "promote",
+            "demote": "demote",
+            "Promote": "Promote",
+            "Demote": "Demote"
+        },
         "common": {
             "Yes": "Yes",
             "No": "No",
