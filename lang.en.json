@@ -113,6 +113,24 @@
             "Promote": "Promote",
             "Demote": "Demote"
         },
+        "medals": {
+            "ViewGroupTitle": "This group's medals",
+            "ViewUserTitle": "{{USER}}'s medals",
+            "MedalCreatedTitle": "The medal has been created",
+            "MedalIDAlreadyUsed": "This medal ID is already in use by a different medal",
+            "AwardedTitle": "User has successfully been given this medal",
+            "AwardedDescr": "This user now has {{AMOUNT}} of these medals",
+            "UnAwardedNoMedal": "This user doesn't have that medal",
+            "UnAwardedTitle": "1 medal of this type has been removed from this user",
+            "UnAwardedDescr": "This user now has {{AMOUNT}} of these medals",
+            "EditDoesntExist": "This medal doesn't exist!",
+            "Edited": "The medal has been successfully edited",
+            "Deleted": "The medal has been successfully deleted"
+        },
+        "api": {
+            "UnableTitle": "ClannyAPI cannot be managed through Discord",
+            "UnableDescr": "We do not allow users to manage ClannyAPI through Discord, to manage ClannyAPI please use [the dashboard](https://dashboard.clanny.systems/)"
+        },
         "common": {
             "Yes": "Yes",
             "No": "No",
