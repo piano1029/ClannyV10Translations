@@ -131,6 +131,13 @@
             "UnableTitle": "ClannyAPI cannot be managed through Discord",
             "UnableDescr": "We do not allow users to manage ClannyAPI through Discord, to manage ClannyAPI please use [the dashboard](https://dashboard.clanny.systems/)"
         },
+        "pendingjoin": {
+            "PendingListTitle": "Pending Users",
+            "PendingListDescr": "The following users have requested to join this group and are awaiting approval",
+            "Accepted": "Accepted",
+            "Declined": "Declined",
+            "AcceptedDeclinedTitle": "{{STATUS}} {{USER}}"
+        },
         "common": {
             "Yes": "Yes",
             "No": "No",
