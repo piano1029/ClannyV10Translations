@@ -138,6 +138,13 @@
             "Declined": "Declined",
             "AcceptedDeclinedTitle": "{{STATUS}} {{USER}}"
         },
+        "setrank": {
+            "SetRankResult": "{{USER}} has been set to {{RANK}}"
+        },
+        "help": {
+            "HelpTitle": "Help",
+            "HelpDescr": "We provide support in our support server https://discord.gg/WWYsWjr and on our wiki at https://wiki.clanny.systems/"
+        },
         "common": {
             "Yes": "Yes",
             "No": "No",
