@@ -145,6 +145,27 @@
             "HelpTitle": "Help",
             "HelpDescr": "We provide support in our support server https://discord.gg/WWYsWjr and on our wiki at https://wiki.clanny.systems/"
         },
+        "settings": {
+            "ViewTitle": "{{SETTING}}'s value",
+            "ViewDescr": "{{SETTING}}'s value is {{VALUE}}",
+            "ChangeTitle": "{{SETTING}} has been changed",
+            "ChangeDescr": "{{SETTING}}'s value has been changed from {{OLD}} to {{NEW}}"
+        },
+        "settings_types": {
+            "XpName": "Xp Name",
+            "ProgressBarYesEmoji": "Progress bar yes emoji",
+            "ProgressBarNoEmoji": "Progress bar no emoji"
+        },
+        "shout": {
+            "Shouted": "Shouted message to the group",
+            "ShoutedDescr": "**WARNING**\n\nMessages shouted to groups get logged and monitored. If you are found to shout inappropriate messages, you will get banned from Clanny and if you own the group your group may get banned from Clanny.",
+            "ShoutRemoved": "Shout has been removed",
+            "ShoutRemovedDescr": "`/shout` has been removed."
+        },
+        "blacklist": {
+            "ViewTitle": "Blacklisted users ({{PAGE}}/{{PAGES}})",
+            "UserStateChanged": "{{USER}}'s blacklist state has been changed"
+        },
         "common": {
             "Yes": "Yes",
             "No": "No",
