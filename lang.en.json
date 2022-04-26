@@ -87,7 +87,23 @@
             "xpremoved": "{{EXECUTOR}} removed {{AMOUNT}}xp from {{CHANGEDUSER}}. {{OLDXP}} >>> {{NEWXP}}",
             "xpset": "{{EXECUTOR}} set {{CHANGEDUSER}}'s xp to {{AMOUNT}}xp. {{OLDXP}} >>> {{NEWXP}}",
             "rankchanged": "{{EXECUTOR}} has changed rank settings",
-            "ranksupdated": "{{EXECUTOR}} has synchronized the group ranks"
+            "ranksupdated": "{{EXECUTOR}} has synchronized the group ranks",
+            "medalcreated": "{{EXECUTOR}} created the medal {{RAW1}}",
+            "medaledited": "{{EXECUTOR}} edited the medal {{RAW1}}'s {{RAW2}} to be {{NEWVALUE}} instead of {{OLDVALUE}}",
+            "medaldeleted": "{{EXECUTOR}} deleted the medal {{RAW1}}",
+            "medalawarded": "{{EXECUTOR}} awarded medal {{RAW1}} to {{CHANGEDUSER}}",
+            "medalunawarded": "{{EXECUTOR}} removed medal {{RAW1}} from {{CHANGEDUSER}}",
+            "apikeycreated": "{{EXECUTOR}} created the API key {{RAW1}}",
+            "apikeydeleted": "{{EXECUTOR}} deleted the API key {{RAW1}}",
+            "promoted": "{{EXECUTOR}} has promoted {{CHANGEDUSER}} from {{OLDRANK}} to {{NEWRANK}}",
+            "demoted": "{{EXECUTOR}} has demoted {{CHANGEDUSER}} from {{OLDRANK}} to {{NEWRANK}}",
+            "grouplanguagechange": "{{EXECUTOR}} has changed the group language to {{NEWVALUE}}",
+            "rankset": "{{EXECUTOR}} has set {{CHANGEDUSER}}'s rank to {{NEWRANK}}",
+            "pendaccepted": "{{EXECUTOR}} has accepted the pending request from {{CHANGEDUSER}}",
+            "pendrejected": "{{EXECUTOR}} has rejected the pending request from {{CHANGEDUSER}}",
+            "changesetting": "{{EXECUTOR}} has changed the setting {{RAW1}} from {{OLDSVALUE}} to {{NEWVALUE}}",
+            "blacklisted": "{{EXECUTOR}} has blacklisted {{CHANGEDUSER}}",
+            "unblacklisted": "{{EXECUTOR}} has unblacklisted {{CHANGEDUSER}}"
         },
         "verify": {
             "verification": "Clanny Verification",
@@ -164,7 +180,9 @@
         },
         "blacklist": {
             "ViewTitle": "Blacklisted users ({{PAGE}}/{{PAGES}})",
-            "UserStateChanged": "{{USER}}'s blacklist state has been changed"
+            "UserStateChanged": "{{USER}}'s blacklist state has been changed",
+            "Blacklisted": "Unable to execute this action, {{USER}} is blacklisted\n\n```{{REASON}}```",
+            "BlacklistedTitle": "**{{USER}} is blacklisted from this group!**"
         },
         "common": {
             "Yes": "Yes",
