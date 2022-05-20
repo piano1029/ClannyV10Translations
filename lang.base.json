@@ -1,0 +1,208 @@
+{
+    "data": {
+        "permissionLevels": {
+            "Normal": "",
+            "Officer": "",
+            "HICOM": "",
+            "Owner": "",
+            "GroupOwner": "",
+            "Developer": "",
+            "Impossible": ""
+        },
+        "index": {
+            "ComponentEntryPointUndefinedTitle": "",
+            "ComponentEntryPointUndefinedDescr": "",
+            "VerificationRequiredTitle": "",
+            "VerificationRequiredDescr": "",
+            "NoAccessToBeta": "",
+            "InsufficientPermissionsTitle": "",
+            "InsufficientPermissionsDescr": "",
+            "IncorrectArgumentsTitle": "",
+            "IncorrectArgumentsDescr": "",
+            "DoesNotExistOnRobloxTitle": "",
+            "DoesNotExistOnRobloxDescr": "",
+            "UnableToParseTitle": "",
+            "UnableToParseDescr": "",
+            "UserNotVerifiedTitle": "",
+            "UserNotVerifiedDescr": "",
+            "PrefixBasedCMDDeprecation": ""
+        },
+        "language": {
+            "SelectLanguageBelow": "",
+            "LanguageUpdatedResponse": ""
+        },
+        "rank": {
+            "SelectRankBelow": "",
+            "RankUpdated": "",
+            "RoleUpdate": "",
+            "ExpReqUpdate": "",
+            "PrefixUpdate": "",
+            "IncorrectRank": "",
+            "RankDoesNotExist": "",
+            "LockStatus": "",
+            "Unlocked": "",
+            "Locked": "",
+            "Unlock": "",
+            "Lock": "",
+            "unlocked": "",
+            "locked": "",
+            "unlock": "",
+            "lock": "",
+            "__note1": "",
+            "XPReqStatus": "",
+            "ChangeXPReq": "",
+            "ChangeRole": "",
+            "PrefixStatus": "",
+            "PrefixStatus2": "",
+            "ChangePrefix": ""
+        },
+        "xp": {
+            "__note1": "",
+            "__note2": "",
+            "ProgressTitleNY": "",
+            "ProgressTitleY": "",
+            "ProgressDescriptionNYGO": "",
+            "ProgressDescriptionNY": "",
+            "ProgressDescriptionGO": "",
+            "ProgressDescription": "",
+            "GettingPromotedNY": "",
+            "GettingPromoted": "",
+            "XPAddedTitle": "",
+            "XPAddedDesc": ""
+        },
+        "audits": {
+            "ChannelUpdatedTitle": "",
+            "ChannelUpdatedDescr": "",
+            "xpadded": "",
+            "xpremoved": "",
+            "xpset": "",
+            "rankchanged": "",
+            "ranksupdated": "",
+            "Status": "",
+            "selectAuditTypeBelow": "",
+            "AuditLogs": ""
+        },
+        "auditLogging": {
+            "xpadded": "",
+            "xpremoved": "",
+            "xpset": "",
+            "rankchanged": "",
+            "ranksupdated": "",
+            "medalcreated": "",
+            "medaledited": "",
+            "medaldeleted": "",
+            "medalawarded": "",
+            "medalunawarded": "",
+            "apikeycreated": "",
+            "apikeydeleted": "",
+            "promoted": "",
+            "demoted": "",
+            "grouplanguagechange": "",
+            "rankset": "",
+            "pendaccepted": "",
+            "pendrejected": "",
+            "changesetting": "",
+            "blacklisted": "",
+            "unblacklisted": ""
+        },
+        "verify": {
+            "verification": "",
+            "notVerifiedExternalAvailable": "",
+            "notVerifiedExternalDead": "",
+            "verificationTransferred": "",
+            "verificationStatusVerifiedTitle": "",
+            "verificationStatusVerifiedDescr": "",
+            "verificationDeleted": "",
+            "verificationChange": ""
+        },
+        "leaderboard": {
+            "previous": "",
+            "next": ""
+        },
+        "promotedemote": {
+            "promoteSuccess": "",
+            "demoteSuccess": "",
+            "actionFailedTitle": "",
+            "actionFailed": "",
+            "promote": "",
+            "demote": "",
+            "Promote": "",
+            "Demote": ""
+        },
+        "medals": {
+            "ViewGroupTitle": "",
+            "ViewUserTitle": "",
+            "MedalCreatedTitle": "",
+            "MedalIDAlreadyUsed": "",
+            "AwardedTitle": "",
+            "AwardedDescr": "",
+            "UnAwardedNoMedal": "",
+            "UnAwardedTitle": "",
+            "UnAwardedDescr": "",
+            "EditDoesntExist": "",
+            "Edited": "",
+            "Deleted": ""
+        },
+        "api": {
+            "UnableTitle": "",
+            "UnableDescr": ""
+        },
+        "pendingjoin": {
+            "PendingListTitle": "",
+            "PendingListDescr": "",
+            "Accepted": "",
+            "Declined": "",
+            "AcceptedDeclinedTitle": ""
+        },
+        "setrank": {
+            "SetRankResult": ""
+        },
+        "help": {
+            "HelpTitle": "",
+            "HelpDescr": ""
+        },
+        "settings": {
+            "ViewTitle": "",
+            "ViewDescr": "",
+            "ChangeTitle": "",
+            "ChangeDescr": ""
+        },
+        "settings_types": {
+            "XpName": "",
+            "ProgressBarYesEmoji": "",
+            "ProgressBarNoEmoji": ""
+        },
+        "shout": {
+            "Shouted": "",
+            "ShoutedDescr": "",
+            "ShoutRemoved": "",
+            "ShoutRemovedDescr": ""
+        },
+        "blacklist": {
+            "ViewTitle": "",
+            "UserStateChanged": "",
+            "Blacklisted": "",
+            "BlacklistedTitle": ""
+        },
+        "common": {
+            "Yes": "",
+            "No": "",
+            "yes": "",
+            "no": "",
+            "NotApplicable": "",
+            "Enabled": "",
+            "Disabled": "",
+            "enabled": "",
+            "disabled": "",
+            "Enable": "",
+            "Disable": "",
+            "enable": "",
+            "disable": ""
+        }
+    },
+    "refs": {
+        "ArgumentsErrors": {
+            "OptionalOrRequired": ""
+        }
+    }
+}

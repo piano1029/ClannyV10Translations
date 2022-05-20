@@ -1,0 +1,208 @@
+{
+    "data": {
+        "permissionLevels": {
+            "Normal": "Normal",
+            "Officer": "Petugas",
+            "HICOM": "HICOM",
+            "Owner": "Pemilik",
+            "GroupOwner": "Pemilik Grup",
+            "Developer": "Pengembang",
+            "Impossible": "Mustahil"
+        },
+        "index": {
+            "ComponentEntryPointUndefinedTitle": "FATAL: ComponentEntryPoint tidak ditentukan",
+            "ComponentEntryPointUndefinedDescr": "__**Kontak {{COM:users.piano1029}} secepat mungkin**__\n\n{{COM:links.supportServer}}",
+            "VerificationRequiredTitle": "Verifikasi Roblox Diperlukan",
+            "VerificationRequiredDescr": "Untuk menggunakan Clanny anda harus memverifikasi\n\n`/verify`",
+            "NoAccessToBeta": "Anda tidak memiliki akses ke Clanny versi beta ini",
+            "InsufficientPermissionsTitle": "Izin tidak memadai",
+            "InsufficientPermissionsDescr": "Anda harus memiliki izin {{REQUIRE_PERMS}} tetapi anda memiliki izin {{USER_PERMS}}!",
+            "IncorrectArgumentsTitle": "Argumen yang salah",
+            "IncorrectArgumentsDescr": "Argument yang digaris bawahi salah/hilang\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors:OptionalOrRequired}}",
+            "DoesNotExistOnRobloxTitle": "Pengguna tidak ada di Roblox",
+            "DoesNotExistOnRobloxDescr": "Argument yang digaris bawahi mendapat nama pengguna yang tidak ada di Roblox\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors.OptionalOrRequired}}",
+            "UnableToParseTitle": "Argumen yang salah",
+            "UnableToParseDescr": "Argument yang digaris bawahi tidak dapat diuraikan oleh SmartArgs\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors.OptionalOrRequired}}",
+            "UserNotVerifiedTitle": "Pengguna belum diverifikasi dengan Clanny",
+            "UserNotVerifiedDescr": "Argumen yang digaris bawahi mendapatkan pengguna yang belum diverifikasi dengan Clanny. Harap minta mereka untuk menjalankan `/verify`\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors.OptionalOrRequired}}",
+            "PrefixBasedCMDDeprecation": "Clanny tidak menggunakan perintah berbasis awalan lagi, gunakan perintah slash mulai sekarang\n\n{{SLASHCOMMAND}}"
+        },
+        "language": {
+            "SelectLanguageBelow": "Pilih bahasa Anda di bawah ini.\n\nJika bahasa anda tidak ada dalam daftar, pertimbangkan untuk menambahkannya di WORK_IN_PROGRESS",
+            "LanguageUpdatedResponse": "Bahasa Anda sekarang {{LANGUAGENAME}}"
+        },
+        "rank": {
+            "SelectRankBelow": "Pilih peringkat yang akan diedit di bawah ini.\nJika peringkat anda tidak ada dalam daftar, jalankan `/rank update`",
+            "RankUpdated": "Peringkat Diperbarui",
+            "RoleUpdate": "Peran {{RANKNAME}} disetel ke {{ROLE}} ",
+            "ExpReqUpdate": "Persyaratan xp {{RANKNAME}} disetel ke {{XPREQ}}",
+            "PrefixUpdate": "Awalan {{RANKNAME}} disetel ke {{PREFIX}}",
+            "IncorrectRank": "Peringkat Salah",
+            "RankDoesNotExist": "Peringkat yang ditentukan tidak ada di grup Anda",
+            "LockStatus": "Peringkat saat ini {{STATUS}}",
+            "Unlocked": "Tidak terkunci",
+            "Locked": "Terkunci",
+            "Unlock": "Membuka kunci",
+            "Lock": "Kunci",
+            "unlocked": "tidak terkunci",
+            "locked": "terkunci",
+            "unlock": "membuka kunci",
+            "lock": "kunci",
+            "__note1": "Bagian dari pesan dapat memiliki banyak salinannya",
+            "XPReqStatus": "Persyaratan XP: {{REQ}}",
+            "ChangeXPReq": "Ubah Persyaratan XP",
+            "ChangeRole": "Ubah Peran",
+            "PrefixStatus": "Awalan Diaktifkan: {{STATUS}}",
+            "PrefixStatus2": "Awalan: {{STATUS}}",
+            "ChangePrefix": "Ubah Awalan"
+        },
+        "xp": {
+            "__note1": "NY berarti 'bukan milikmu', Y berarti 'milikmu'!",
+            "__note2": "GO berarti 'pemilik grup'!",
+            "ProgressTitleNY": "Kemajuan {{USERNAME}}",
+            "ProgressTitleY": "Kemajuan Anda",
+            "ProgressDescriptionNYGO": "**{{USERNAME}}**\n\n{{USERNAME}} memiliki {{XP}}xp!\n{{USERNAME}} memiliki grup ini, bagus!",
+            "ProgressDescriptionNY": "**{{USERNAME}}**\n\n{{USERNAME}} memiliki {{XP}}xp!\nUntuk mencapai {{NEXTRANK}} {{USERNAME}} membutuhkan {{XPFORNEXTRANK}} lebih banyak xp!",
+            "ProgressDescriptionGO": "**{{USERNAME}}**\n\nAnda memiliki {{XP}}xp!\nAnda pemilik grup ini, bagus!",
+            "ProgressDescription": "**{{USERNAME}}**\n\nAnda memiliki {{XP}}xp!\nUntuk mencapai {{NEXTRANK}} Anda memerlukan {{XPFORNEXTRANK}} xp lebih banyak!",
+            "GettingPromotedNY": "{{USERNAME}} seharusnya dipromosikan sekarang",
+            "GettingPromoted": "Anda harus dipromosikan sekarang",
+            "XPAddedTitle": "XP telah berhasil ditambahkan",
+            "XPAddedDesc": "**{{USERNAME}}**: {{OLD}} --> {{NEW}}"
+        },
+        "audits": {
+            "ChannelUpdatedTitle": "Saluran audit telah berhasil diperbarui",
+            "ChannelUpdatedDescr": "Webhook telah dibuat untuk mengirim pesan audit. Jika Anda memiliki bot anti-razia seperti Wick, pastikan untuk memasukkan webhook ini (ID Webhook: `{{ID}}`) di daftar putih anti-spam",
+            "xpadded": "XP Ditambahkan",
+            "xpremoved": "XP Dihapus",
+            "xpset": "XP Setel",
+            "rankchanged": "Pengaturan peringkat berubah",
+            "ranksupdated": "Peringkat diperbarui",
+            "Status": "Status: {{STATUS}}",
+            "selectAuditTypeBelow": "Pilih jenis audit untuk diedit di bawah",
+            "AuditLogs": "**Detail audit**"
+        },
+        "auditLogging": {
+            "xpadded": "{{EXECUTOR}} menambahkan {{AMOUNT}}xp ke {{CHANGEDUSER}}. {{OLDXP}} >>> {{NEWXP}}",
+            "xpremoved": "{{EXECUTOR}} menghapus {{AMOUNT}}xp ke {{CHANGEDUSER}}. {{OLDXP}} >>> {NEWXP}}",
+            "xpset": "{{EXECUTOR}} setel {{AMOUNT}}xp ke {{CHANGEDUSER}}. {{OLDXP}} >>> {NEWXP}}",
+            "rankchanged": "{{EXECUTOR}} telah mengubah pengaturan peringkat",
+            "ranksupdated": "{{EXECUTOR}} telah menyinkronkan peringkat grup",
+            "medalcreated": "{{EXECUTOR}} membuat medali {{RAW1}}",
+            "medaledited": "{{EXECUTOR}} mengedit medali {{RAW1}} {{RAW2}} menjadi {{NEWVALUE}}, bukan {{OLDVALUE}}",
+            "medaldeleted": "{{EXECUTOR}} menghapus medali {{RAW1}}",
+            "medalawarded": "{{EXECUTOR}} memberikan medali {{RAW1}} ke {{CHANGEDUSER}}",
+            "medalunawarded": "{{EXECUTOR}} menghapus medali {{RAW1}} ke {{CHANGEDUSER}}",
+            "apikeycreated": "{{EXECUTOR}} membuat kunci API {{RAW1}}",
+            "apikeydeleted": "{{EXECUTOR}} menghapus kunci API {{RAW1}}",
+            "promoted": "{{EXECUTOR}} telah mempromosikan {{CHANGEDUSER}} dari {{OLDRANK}} menjadi {{NEWRANK}}",
+            "demoted": "{{EXECUTOR}} telah menurunkan {{CHANGEDUSER}} dari {{OLDRANK}} menjadi {{NEWRANK}}",
+            "grouplanguagechange": "{{EXECUTOR}} telah mengubah bahasa grup menjadi {{NEWVALUE}}",
+            "rankset": "{{EXECUTOR}} telah menetapkan peringkat {{CHANGEDUSER}} menjadi {{NEWRANK}}",
+            "pendaccepted": "{{EXECUTOR}} telah menerima permintaan tertunda dari {{CHANGEDUSER}}",
+            "pendrejected": "{{EXECUTOR}} telah menolak permintaan tertunda dari {{CHANGEDUSER}}",
+            "changesetting": "{{EXECUTOR}} telah mengubah setelan {{RAW1}} dari {{OLDSVALUE}} menjadi {{NEWVALUE}}",
+            "blacklisted": "{{EXECUTOR}} telah memasukkan {{CHANGEDUSER}} ke daftar hitam",
+            "unblacklisted": "{{EXECUTOR}} telah membatalkan daftar hitam {{CHANGEDUSER}}"
+        },
+        "verify": {
+            "verification": "Verifikasi Clanny",
+            "notVerifiedExternalAvailable": "Tampaknya Anda tidak diverifikasi dengan kami\n\nKami dapat mengimpor verifikasi Anda dari penyedia berikut: {{VERIFICATIONPROVIDERS}}\n",
+            "notVerifiedExternalDead": "Kami tidak dapat mengambil data dari penyedia berikut: {{VERIFICATIONPROVIDERS}}\n",
+            "verificationTransferred": "Kami telah berhasil mentransfer data Anda dari {{VERIFICATIONPROVIDER}}. Anda sekarang: {{USERNAME}}",
+            "verificationStatusVerifiedTitle": "Anda diverifikasi!",
+            "verificationStatusVerifiedDescr": "Halo {{USERNAME}}.\n\nDi sini Anda dapat mengubah data verifikasi Anda",
+            "verificationDeleted": "Data verifikasi anda telah dihapus, untuk menggunakan Clanny kembali, jalankan `/verify`",
+            "verificationChange": "Data verifikasi Anda telah siap untuk diubah, silakan jalankan `/verify`"
+        },
+        "leaderboard": {
+            "previous": "Sebelumnya",
+            "next": "Selanjutnya"
+        },
+        "promotedemote": {
+            "promoteSuccess": "{{USER}} telah berhasil dipromosikan ke {{NEWRANK}} dari {{OLDRANK}}",
+            "demoteSuccess": "{{USER}} telah berhasil diturunkan ke {{NEWRANK}} dari {{OLDRANK}}",
+            "actionFailedTitle": "Ups! Ada yang salah",
+            "actionFailed": "{{ACTION}} telah gagal.\n\n{{ERROR}}\n\nJika Anda tidak memahami kesalahan ini, silakan buka [KERJA DALAM PROGRES]",
+            "promote": "memajukan",
+            "demote": "menurunkan",
+            "Promote": "Memajukan",
+            "Demote": "Menurunkan"
+        },
+        "medals": {
+            "ViewGroupTitle": "Medali grup ini",
+            "ViewUserTitle": "Medali {{USER}}",
+            "MedalCreatedTitle": "Medali telah dibuat",
+            "MedalIDAlreadyUsed": "ID medali sudah digunakan oleh medali yang berbeda",
+            "AwardedTitle": "Pengguna telah berhasil diberikan medali ini",
+            "AwardedDescr": "Pengguna ini sekarang memiliki {{AMOUNT}} medali ni",
+            "UnAwardedNoMedal": "Pengguna ini tidak memiliki medali itu",
+            "UnAwardedTitle": "1 medali jenis ini telah dihapus dari pengguna ini",
+            "UnAwardedDescr": "Pengguna ini sekarang memiliki {{AMOUNT}} medali ni",
+            "EditDoesntExist": "Medali ini tidak ada!",
+            "Edited": "Medali ini telah berhasil diedit",
+            "Deleted": "Medali ini telah berhasil dihapus"
+        },
+        "api": {
+            "UnableTitle": "ClannyAPI tidak dapat dikelola melalui Discord",
+            "UnableDescr": "Kami tidak mengizinkan pengguna untuk mengelola ClannyAPI melalui Discord, untuk mengelola ClannyAPI silakan gunakan [dasbor](https://dashboard.clanny.systems/)"
+        },
+        "pendingjoin": {
+            "PendingListTitle": "Pengguna Tertunda",
+            "PendingListDescr": "Pengguna berikut telah meminta untuk bergabung dengan grup ini dan sedang menunggu persetujuan",
+            "Accepted": "Diterima",
+            "Declined": "Ditolak",
+            "AcceptedDeclinedTitle": "{{STATUS}} {{USER}}"
+        },
+        "setrank": {
+            "SetRankResult": "{{USER}} telah disetel ke {{RANK}}"
+        },
+        "help": {
+            "HelpTitle": "Tolong",
+            "HelpDescr": "Kami menyediakan di server dukungan kami https://discord.gg/WWYsWjr dan di wiki kami di https://wiki.clanny.systems/"
+        },
+        "settings": {
+            "ViewTitle": "Nilai {{SETTINGS}}",
+            "ViewDescr": "Nilai {{SETTINGS}} adalah {{VALUE}}",
+            "ChangeTitle": "{{SETTINGS}} telah diubah",
+            "ChangeDescr": "Nilai {{SETTINGS}} telah diubah dari {{OLD}} menjadi {{NEW}}"
+        },
+        "settings_types": {
+            "XpName": "Nama Xp",
+            "ProgressBarYesEmoji": "Bilah kemajuan ya emoji",
+            "ProgressBarNoEmoji": "Bilah kemajuan tidak emoji"
+        },
+        "shout": {
+            "Shouted": "Umumkan pesan ke group",
+            "ShoutedDescr": "**PERINGATAN**\n\nPesan yang diumumkan ke grup akan dicatat dan dipantau. Jika Anda ditemukan mengumumkan pesan yang tidak pantas, Anda akan diblokir dari Clanny dan jika Anda pemilik grup tersebut, grup Anda dapat diblokir dari Clanny.",
+            "ShoutRemoved": "Pengumuman telah dihapus",
+            "ShoutRemovedDescr": "`/shout` telah dihapus."
+        },
+        "blacklist": {
+            "ViewTitle": "Pengguna yang masuk daftar hitam ({{PAGE}}/{{PAGES}})",
+            "UserStateChanged": "Status daftar hitam {{USERS}} telah diubah",
+            "Blacklisted": "Tidak dapat menjalankan tindakan ini, {{USER}} dimasukkan dalam daftar hitam\n\n```{{REASON}}```",
+            "BlacklistedTitle": "**{{USER}} dimasukkan dalam daftar hitam dari grup ini!**"
+        },
+        "common": {
+            "Yes": "Ya",
+            "No": "Tidak",
+            "yes": "ya",
+            "no": "tidak",
+            "NotApplicable": "Tidak tersedia",
+            "Enabled": "Diaktifkan",
+            "Disabled": "Dengan disabilitas",
+            "enabled": "diaktifkan",
+            "disabled": "dengan disabilitas",
+            "Enable": "Mengaktifkan",
+            "Disable": "Menonaktifkan",
+            "enable": "mengaktifkan",
+            "disable": "menonaktifkan"
+        }
+    },
+    "refs": {
+        "ArgumentsErrors": {
+            "OptionalOrRequired": "\n\n*`(Argumen)` Adalah opsional, `[Argumen]` diperlukan*"
+        }
+    }
+}

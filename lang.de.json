@@ -1,0 +1,208 @@
+{
+    "data": {
+        "permissionLevels": {
+            "Normal": "Normal",
+            "Officer": "Offizier",
+            "HICOM": "HICOM",
+            "Owner": "Besitzer",
+            "GroupOwner": "Gruppenbesitzer",
+            "Developer": "Entwickler",
+            "Impossible": "Unmöglich"
+        },
+        "index": {
+            "ComponentEntryPointUndefinedTitle": "FATAL: ComponentEntryPoint wurde nicht definiert.",
+            "ComponentEntryPointUndefinedDescr": "__**Kontaktiere {{COM:users.piano1029}} so schnell wie möglich **__\n\n{{COM:links.supportServer}}",
+            "VerificationRequiredTitle": "Roblox-Verifizierung erforderlich!",
+            "VerificationRequiredDescr": "Um Clanny benutzten zu können, musst du dich verifizieren.\n\n`/verify`",
+            "NoAccessToBeta": "Du hast keinen Zugriff auf die Beta-Version von Clanny Systems.",
+            "InsufficientPermissionsTitle": "Unzureichende Rechte.",
+            "InsufficientPermissionsDescr": "Du benötigst {{REQUIRED_PERMS}} du hast aber {{USER_PERMS}}.",
+            "IncorrectArgumentsTitle": "Fehlerhafter Parameter.",
+            "IncorrectArgumentsDescr": "Das unterstrichene Argument ist Falsch/Nicht Vorhanden\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors.OptionalOrRequired}}.",
+            "DoesNotExistOnRobloxTitle": "Benutzer existiert nicht auf Roblox.",
+            "DoesNotExistOnRobloxDescr": "Das unterstrichene Argument erkennt einen Benutzer, der auf Roblox nicht existiert\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors.OptionalOrRequired}}.",
+            "UnableToParseTitle": "Fehlerhafter Parameter.",
+            "UnableToParseDescr": "Das unterstrichene Argument konnte von SmartArgs nicht geparst werden.\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors.OptionalOrRequired}}.",
+            "UserNotVerifiedTitle": "Der Benutzer wurde nicht mit Clanny verifiziert.",
+            "UserNotVerifiedDescr": "Das unterstrichene Argument erkennt einen Benutzer der sich noch nicht mit Clanny verifiziert hat. Bitte erfrage, ob sie sich mit Clanny verifizieren können. `/verify`\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors.OptionalOrRequired}}.",
+            "PrefixBasedCMDDeprecation": "Clanny verwendet keine präfixbasierten Befehle mehr, verwenden Sie von nun an die Slash-Befehle.\n\n{{SLASHCOMMAND}}."
+        },
+        "language": {
+            "SelectLanguageBelow": "Bitte wähle unten deine Sprache aus.\n\nIf deine Sprache befindet sich nicht in der Liste, erwäge unter: WORK_IN_PROGRESS",
+            "LanguageUpdatedResponse": "Die ausgewählte Sprache ist nun {{LANGUAGENAME}}."
+        },
+        "rank": {
+            "SelectRankBelow": "Wählen Sie unten den zu bearbeitenden Rang aus.\nIf dein Rang ist nicht gelistet. Bitte verwende `/rank update`.",
+            "RankUpdated": "Rolle Aktualisiert.",
+            "RoleUpdate": "{{RANKNAME}} wurde zu {{ROLE}} gesetzt.",
+            "ExpReqUpdate": "{{RANKNAME}}'s XP-Anforderung festgelegt auf {{XPREQ}}.",
+            "PrefixUpdate": "{{RANKNAME}}'s Prefix wurde auf {{PREFIX}} festgelegt.",
+            "IncorrectRank": "Fehlerhafter Rang.",
+            "RankDoesNotExist": "Der angegebene Rang existiert nicht in deiner Gruppe.",
+            "LockStatus": "Der Rang ist derzeit {{STATUS}}.",
+            "Unlocked": "Freigegeben",
+            "Locked": "Gesperrt",
+            "Unlock": "Freigeben",
+            "Lock": "Sperren",
+            "unlocked": "freigegeben",
+            "locked": "gesperrt",
+            "unlock": "freigeben",
+            "lock": "sperren",
+            "__note1": "Teile von Nachrichten können mehrere Kopien haben.",
+            "XPReqStatus": "XP-Voraussetzung: {{REQ}}",
+            "ChangeXPReq": "XP-Voraussetzung ändern",
+            "ChangeRole": "Rolle verändern",
+            "PrefixStatus": "Präfix Aktiviert: {{STATUS}}",
+            "PrefixStatus2": "Präfix: {{STATUS}}",
+            "ChangePrefix": "Präfix verändern"
+        },
+        "xp": {
+            "__note1": "NY bedeutet 'nicht deins', Y bedeutet 'deins'!",
+            "__note2": "GO bedeutet 'Gruppenbesitzer'.",
+            "ProgressTitleNY": "{{USERNAME}}'s Fortschritt",
+            "ProgressTitleY": "Dein Fortschritt",
+            "ProgressDescriptionNYGO": "**{{USERNAME}}**\n\n{{USERNAME}} hat {{XP}}xp!\n{{USERNAME}} besitzt dises Gruppe, toll!",
+            "ProgressDescriptionNY": "**{{USERNAME}}**\n\n{{USERNAME} hat {{XP}}xp!\nUm zum {{NEXTRANK}} befördert zu werden,  benötigt der User {{USERNAME}} {{XPFORNEXTRANK}} XP mehr.",
+            "ProgressDescriptionGO": "**{{USERNAME}}**\n\nDu hast {{XP}}XP!\nDu besitzt diese Gruppe, wunderbar!",
+            "ProgressDescription": "**{{USERNAME}}**\n\nDu hast {{XP}}XP!\nUm zum {{NEXTRANK}} befördert zu werden, benötigst du {{XPFORNEXTRANK}} XP mehr!",
+            "GettingPromotedNY": "{{USERNAME}} sollte gerade jetzt befördert werden.",
+            "GettingPromoted": "Du solltest gerade jetzt befördert werden.",
+            "XPAddedTitle": "Dein(e) XP wurde(n) erfolgreich hinzugefügt.",
+            "XPAddedDesc": "**{{USERNAME}}**: {{OLD}} --> {{NEW}}"
+        },
+        "audits": {
+            "ChannelUpdatedTitle": "Der Prüfungskanal wurde erfolgreich aktualisiert.",
+            "ChannelUpdatedDescr": "Es wurde ein Webhook erstellt, um die Audits zu versenden. Wenn Sie einen Anti-Raid-Bot wie Wick haben, stellen Sie sicher, dass Sie diesen Webhook (Webhook-ID: `{{ID}}`) auf die Anti-Spam-Whitelist setzen.",
+            "xpadded": "XP wurde Hinzugefügt.",
+            "xpremoved": "XP wurde entfernt.",
+            "xpset": "XP wurde gesetzt.",
+            "rankchanged": "Die Rangeinstellungen wurden verändert.",
+            "ranksupdated": "Die Ränge wurden aktualisiert.",
+            "Status": "Status: {{STATUS}}",
+            "selectAuditTypeBelow": "Wählen Sie unten eine Prüfungsart zur Bearbeitung aus.",
+            "AuditLogs": "**Details der Prüfung**"
+        },
+        "auditLogging": {
+            "xpadded": "{{EXECUTOR}} hat {{AMOUNT}}XP zu {{CHANGEDUSER}} hinzugefügt. {{OLDXP}} >>> {{NEWXP}}.",
+            "xpremoved": "{{EXECUTOR}} hat {{AMOUNT}}XP von {{CHANGEDUSER}} entfernt. {{OLDXP}} >>> {{NEWXP}}.",
+            "xpset": "{{EXECUTOR}} setzt {{CHANGEDUSER}}'s XP auf {{AMOUNT}}XP. {{ALTERXP}} >>> {{NEWXP}}.",
+            "rankchanged": "{{EXECUTOR}} hat die Rangeinstellungen geändert.",
+            "ranksupdated": "{{EXECUTOR}} hat die Ränge der Gruppe synchronisiert.",
+            "medalcreated": "{{EXECUTOR}} hat die folgende Medaille erstellt {{RAW1}}.",
+            "medaledited": "{{EXECUTOR}} hat die Medaille {{RAW1}}'s {{RAW2}} zu {{NEWVALUE}} statt {{OLDVALUE}} bearbeitet.",
+            "medaldeleted": "{{EXECUTOR}} hat die Medaille {{RAW1}} gelöscht.",
+            "medalawarded": "{{EXECUTOR}} verleiht die Medaille {{RAW1}} an {{CHANGEDUSER}}.",
+            "medalunawarded": "{{EXECUTOR}} hat die Medaille {{RAW1}} von {{CHANGEDUSER}} entfernt.",
+            "apikeycreated": "{{EXECUTOR}} hat den API Schlüssel {{RAW1}} erstellt.",
+            "apikeydeleted": "{{EXECUTOR}} hat den API Schlüssel {{RAW1}} gelöscht.",
+            "promoted": "{{EXECUTOR}} hat {{CHANGEDUSER}} vom {{OLDRANK}} zum {{NEWRANK}} befördert.",
+            "demoted": "{{EXECUTOR}} hat {{CHANGEDUSER}} vom {{OLDRANK}} zum {{NEWRANK}} degradiert.",
+            "grouplanguagechange": "{{EXECUTOR}} hat die Gruppensprache zu {{NEWVALUE}} geändert.",
+            "rankset": "{{EXECUTOR}} hat {{CHANGEDUSER}}'s  Rang zu {{NEWRANK}} gesetzt.",
+            "pendaccepted": "{{EXECUTOR}} hat die ausstehende Anfrage von {{CHANGEDUSER}} akzeptiert.",
+            "pendrejected": "{{EXECUTOR}} hat die ausstehende Anfrage von {{CHANGEDUSER}} abgelehnt.",
+            "changesetting": "{{EXECUTOR}} hat die Einstellung {{RAW1}} von {{OLDVALUE}} auf {{NEWVALUE}} geändert.",
+            "blacklisted": "{{EXECUTOR}} hat {{CHANGEDUSER}} auf die schwarze Liste gesetzt.",
+            "unblacklisted": "{{EXECUTOR}} hat {{CHANGEDUSER}} aus der schwarzen Liste entfernt."
+        },
+        "verify": {
+            "verification": "Clanny Verifizierung",
+            "notVerifiedExternalAvailable": "Es scheint, dass du nicht bei uns verifiziert bist\n\n Wir können deine Verifizierung von den folgenden Anbietern importieren: {{VERIFICATIONPROVIDERS}}\n",
+            "notVerifiedExternalDead": "Wir konnten keine Daten von den folgenden Anbietern abrufen: {{VERIFICATIONPROVIDERS}}.",
+            "verificationTransferred": "Wir konnten deine Daten von {{VERIFICATIONPROVIDER}} erfolgreich transferieren. Du bist nun: {{USERNAME}}.",
+            "verificationStatusVerifiedTitle": "Du bist jetzt verifiziert!",
+            "verificationStatusVerifiedDescr": "Hallo {{USERNAME}}.\n\nHier kannst du deine Verifizierungsdaten bearbeiten.",
+            "verificationDeleted": "Deine Verifizierungsdaten wurden gelöscht. Um Clanny erneut benutzen zu können, solltest du `/verify` ausführen.",
+            "verificationChange": "Deine Verifizierungsdaten können nun geändert werden, bitte führe `/verify` aus."
+        },
+        "leaderboard": {
+            "previous": "Vorherige",
+            "next": "Nächste"
+        },
+        "promotedemote": {
+            "promoteSuccess": "{{USER}} wurde von {{OLDRANK}} erfolgreich zum {{NEWRANK}} befördert.",
+            "demoteSuccess": "{{USER}} wurde erfolgreich von {{OLDRANK}} auf {{NEWRANK}} degradiert.",
+            "actionFailedTitle": "Huch! Etwas ist schief gelaufen.",
+            "actionFailed": "{{ACTION}} ist fehlgeschlagen.\n\n{ERROR}}\n\nWenn Sie diesen Fehler nicht verstehen, gehen Sie bitte zu [WORK IN PROGRESS].",
+            "promote": "befördern",
+            "demote": "degradieren",
+            "Promote": "Beförderung",
+            "Demote": "Degradierung"
+        },
+        "medals": {
+            "ViewGroupTitle": "Diese Gruppenmedaillen",
+            "ViewUserTitle": "{{USER}}'s Medaillen",
+            "MedalCreatedTitle": "Die Medaille wurde erstellt.",
+            "MedalIDAlreadyUsed": "Diese Medaillen-ID wird bereits von einer anderen Medaille verwendet.",
+            "AwardedTitle": "Der/Die Benutzer:in hat diese Medaille erfolgreich erhalten.",
+            "AwardedDescr": "Diese:r Benutzer:in hat jetzt {{AMOUNT}} dieser Medaillen.",
+            "UnAwardedNoMedal": "Diese:r Benutzer:in besitzt diese Medaille nicht.",
+            "UnAwardedTitle": "1 Medaille dieser Art wurde von Diese:r Benutzer:in entfernt.",
+            "UnAwardedDescr": "Diese:r Benutzer:in hat jetzt {{AMOUNT}} dieser Medaillen.",
+            "EditDoesntExist": "Diese Medaille existiert nicht!",
+            "Edited": "Die Medaille wurde erfolgreich bearbeitet.",
+            "Deleted": "Die Medaille wurde erfolgreich entfernt."
+        },
+        "api": {
+            "UnableTitle": "ClannyAPI kann nicht über Discord verwaltet werden.",
+            "UnableDescr": "Wir erlauben es Nutzer:innen nicht, ClannyAPI über Discord zu verwalten. Um ClannyAPI zu verwalten, benutze bitte [das Dashboard] (https://dashboard.clanny.systems/)."
+        },
+        "pendingjoin": {
+            "PendingListTitle": "Ausstehende Benutzer:innen",
+            "PendingListDescr": "Die folgenden Benutzer:innen haben beantragt, dieser Gruppe beizutreten und warten auf die Genehmigung.",
+            "Accepted": "Angenommen",
+            "Declined": "Abgelehnt",
+            "AcceptedDeclinedTitle": "{{STATUS}} {{USER}}"
+        },
+        "setrank": {
+            "SetRankResult": "{{USER}} wurde auf {{RANK}} gesetzt."
+        },
+        "help": {
+            "HelpTitle": "Hilfe",
+            "HelpDescr": "Wir bieten Unterstützung auf unserem Support-Server https://discord.gg/WWYsWjr und in unserem Wiki unter https://wiki.clanny.systems/ an."
+        },
+        "settings": {
+            "ViewTitle": "{{SETTING}}'s Wert",
+            "ViewDescr": "Der Wert von {{SETTING}} ist {{VALUE}}.",
+            "ChangeTitle": "{{SETTING}} wurde verändert.",
+            "ChangeDescr": "{{SETTING}} wurde verändert."
+        },
+        "settings_types": {
+            "XpName": "XP Name",
+            "ProgressBarYesEmoji": "Fortschrittsanzeige ja emoji",
+            "ProgressBarNoEmoji": "Fortschrittsanzeige nein emoji"
+        },
+        "shout": {
+            "Shouted": "Nachricht an die Gruppe.",
+            "ShoutedDescr": "**WARNUNG**\n\nNachrichten, die an Gruppen gesendet werden, werden protokolliert und überwacht. Wenn du dabei erwischt wirst, dass du unangemessene Nachrichten rufst, wirst du aus Clanny verbannt und wenn du die Gruppe besitzt, kann deine Gruppe aus Clanny verbannt werden.",
+            "ShoutRemoved": "Die Nachrichtenmeldung wurde entfernt.",
+            "ShoutRemovedDescr": "`/shout` wurde entfernt."
+        },
+        "blacklist": {
+            "ViewTitle": "Auf der schwarzen Liste stehende Benutzer:innen ({{PAGE}}/{{PAGES}})",
+            "UserStateChanged": "Der Status der Schwarzen Liste von {{USER}} wurde geändert.",
+            "Blacklisted": "Diese Aktion kann nicht ausgeführt werden, {{USER}} steht auf der schwarzen Liste\n\n```{{REASON}}```",
+            "BlacklistedTitle": "**{{USER}} steht auf der schwarzen Liste dieser Gruppe!**"
+        },
+        "common": {
+            "Yes": "Ja",
+            "No": "Nein",
+            "yes": "ja",
+            "no": "nein",
+            "NotApplicable": "Nicht vorhanden",
+            "Enabled": "Aktiviert",
+            "Disabled": "Deaktiviert",
+            "enabled": "aktiviert",
+            "disabled": "deaktiviert",
+            "Enable": "Aktivieren",
+            "Disable": "Deaktivieren",
+            "enable": "aktivieren",
+            "disable": "deaktivieren"
+        }
+    },
+    "refs": {
+        "ArgumentsErrors": {
+            "OptionalOrRequired": "\n\n*`(Argument)` Ist optional, `[Argument]` ist erforderlich*"
+        }
+    }
+}

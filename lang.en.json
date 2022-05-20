@@ -28,7 +28,7 @@
             "PrefixBasedCMDDeprecation": "Clanny doesn't use prefix based commands anymore, use the slash commands from now on\n\n{{SLASHCOMMAND}}"
         },
         "language": {
-            "SelectLanguageBelow": "Select your language below.\n\nIf your language is not on the list, consider adding it at WORK_IN_PROGRESS",
+            "SelectLanguageBelow": "Select your language below.\n\nIf your language is not on the list, consider adding it at clanny.systems",
             "LanguageUpdatedResponse": "Your language is now {{LANGUAGENAME}}"
         },
         "rank": {
