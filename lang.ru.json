@@ -1,0 +1,208 @@
+{
+    "data": {
+        "permissionLevels": {
+            "Normal": "Нормальный",
+            "Officer": "Офицер",
+            "HICOM": "HICOM",
+            "Owner": "Владелец",
+            "GroupOwner": "Владелец группы",
+            "Developer": "Разработчик",
+            "Impossible": "Невозможно"
+        },
+        "index": {
+            "ComponentEntryPointUndefinedTitle": "FATAL: ComponentEntryPoint не был определен",
+            "ComponentEntryPointUndefinedDescr": "__**Свяжитесь с {{COM:users.piano1029}} как можно скорее**__\n\n{{COM:links.supportServer}}",
+            "VerificationRequiredTitle": "требуется верификация в Roblox",
+            "VerificationRequiredDescr": "Чтобы использовать Clanny, вы должны подтвердите свою личность в\n\n`/`verify`",
+            "NoAccessToBeta": "У вас нет доступа к этой бета-версии Clanny",
+            "InsufficientPermissionsTitle": "Недостаточные разрешения",
+            "InsufficientPermissionsDescr": "NOT TRANSLATED YET",
+            "IncorrectArgumentsTitle": "Неверные аргументы",
+            "IncorrectArgumentsDescr": "Подчеркнутый аргумент неверен/отсутствует\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors.OptionalOrRequired}}",
+            "DoesNotExistOnRobloxTitle": "Плеер не существует на Roblox",
+            "DoesNotExistOnRobloxDescr": "Подчеркнутый аргумент получил имя пользователя, которого не существует в Roblox\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors.OptionalOrRequired}}",
+            "UnableToParseTitle": "Неверные аргументы",
+            "UnableToParseDescr": "Подчеркнутый аргумент не удалось проанализировать с помощью SmartArgs\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors.OptionalOrRequired}}",
+            "UserNotVerifiedTitle": "Пользователь не прошел верификацию в Clanny",
+            "UserNotVerifiedDescr": "Подчеркнутый аргумент получил пользователя, который не был проверен с помощью Clanny. Пожалуйста, попросите их запустить `/verify`\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors.OptionalOrRequired}}",
+            "PrefixBasedCMDDeprecation": "Clanny больше не использует команды на основе префиксов, с этого момента используйте команды с косой чертой \n\n {{SLASHCOMMAND}}"
+        },
+        "language": {
+            "SelectLanguageBelow": "Выберите свой язык ниже.\n\n Если вашего языка нет в списке, рассмотрите возможность добавления его в WORK_IN_PROGRESS",
+            "LanguageUpdatedResponse": "Ваш язык теперь {{LANGUAGENAME}}"
+        },
+        "rank": {
+            "SelectRankBelow": "Выберите ранг для редактирования ниже.\nЕсли вашего ранга нет в списке, запустите `/rank update`",
+            "RankUpdated": "Ранг обновлен",
+            "RoleUpdate": "{{RANKNAME} роль установлена на {{ROLE}",
+            "ExpReqUpdate": "{{RANKNAME}} Требование к xp установлено на {{XPREQ}}",
+            "PrefixUpdate": "{{RANKNAME}} префикс, установленный на {{PREFIX}}",
+            "IncorrectRank": "Неправильный ранг",
+            "RankDoesNotExist": "Указанный ранг не существует в вашей группе",
+            "LockStatus": "Данный ранг {{STATUS}}",
+            "Unlocked": "Разблокирован",
+            "Locked": "Заблокированный",
+            "Unlock": "Разблокировать",
+            "Lock": "Заблокировать",
+            "unlocked": "pазблокирован",
+            "locked": "заблокированный",
+            "unlock": "pазблокировать",
+            "lock": "заблокировать",
+            "__note1": "Части сообщений могут иметь несколько копий",
+            "XPReqStatus": "Требования к XP: {{REQ}}",
+            "ChangeXPReq": "Изменение требований к XP",
+            "ChangeRole": "Сменить Роль",
+            "PrefixStatus": "Включен префикс: {{STATUS}}",
+            "PrefixStatus2": "Префикс: {{STATUS}}",
+            "ChangePrefix": "Изменить Префикс"
+        },
+        "xp": {
+            "__note1": "NY означает \"не твой\", Y означает \"твой\"!",
+            "__note2": "GO означает \"владелец группы\"!",
+            "ProgressTitleNY": "Прогресс {{USERNAME}}",
+            "ProgressTitleY": "Ваш прогресс",
+            "ProgressDescriptionNYGO": "**{{USERNAME}}**\n\n{{USERNAME}} имеет {{XP}}xp!\n{{USERNAME}} владеет этой группой",
+            "ProgressDescriptionNY": "**{{USERNAME}}**\n\n{{USERNAME}} имеет {{XP}}xp!\n чтобы получить {{NEXTRANK}} {{USERNAME}} требуется {{XPFORNEXTRANK}} больше xp!",
+            "ProgressDescriptionGO": "**{{USERNAME}}**\n\nУ вас есть {{XP}}xp!\nвы являетесь владельцем этой группы",
+            "ProgressDescription": "**{{USERNAME}}**\n\n у вас есть {{XP}} xp!\n Чтобы достичь {{NEXTRANK}} вам нужно {{XPFORNEXTRANK}} больше xp!",
+            "GettingPromotedNY": "{{USERNAME}} должно быть повышено прямо сейчас",
+            "GettingPromoted": "Ты должен получить повышение прямо сейчас",
+            "XPAddedTitle": "XP был успешно добавлен",
+            "XPAddedDesc": "**{{USERNAME}}**: {{OLD}} --> {{NEW}}"
+        },
+        "audits": {
+            "ChannelUpdatedTitle": "Канал аудита был успешно обновлен",
+            "ChannelUpdatedDescr": "Для отправки сообщений аудита был создан webhook. Если у вас есть анти-рейдовый бот, такой как Wick, обязательно внесите этот webhook (идентификатор Webhook: `{{ID}}`) в белый список защиты от нежелательной почты",
+            "xpadded": "XP Добавили",
+            "xpremoved": "XP Удаленный",
+            "xpset": "XP Настроен",
+            "rankchanged": "Ранг настройки изменены",
+            "ranksupdated": "Ранг обновлен",
+            "Status": "Статус: {{STATUS}}",
+            "selectAuditTypeBelow": "Выберите тип аудита для редактирования ниже",
+            "AuditLogs": "**Подробности аудита**"
+        },
+        "auditLogging": {
+            "xpadded": "{{EXECUTOR}} добавил {{AMOUNT}}xp к {{CHANGEDUSER}}. {{OLDXP}} >>> {{NEWXP}}",
+            "xpremoved": "{{EXECUTOR}} убрал {{AMOUNT}}xp от {{CHANGEDUSER}}. {{OLDXP}} >>> {{NEWXP}}",
+            "xpset": "{{EXECUTOR}} установили xp {{CHANGEDUSER}} на {{AMOUNT}}xp. {{OLDXP}} >>> {{NEWXP}}",
+            "rankchanged": "{{EXECUTOR}} изменил настройки ранга",
+            "ranksupdated": "{{EXECUTOR}} синхронизировал ранги группы",
+            "medalcreated": "{{EXECUTOR}} создал медаль {{RAW1}}",
+            "medaledited": "{{EXECUTOR}} отредактировал значение {{RAW1}} {{RAW2}} для {{NEWVALUE}} вместо {{OLDVALUE}}",
+            "medaldeleted": "{{EXECUTOR}} удалил медаль {{RAW1}}",
+            "medalawarded": "{{EXECUTOR}} вручил медаль {{RAW1}} {{CHANGEDUSER}}",
+            "medalunawarded": "{{EXECUTOR}} удалил медаль {{RAW1}} из {{CHANGEDUSER}}",
+            "apikeycreated": "{{ИСПОЛНИТЕЛЬ}} создал ключ API {{RAW1}}",
+            "apikeydeleted": "{{ИСПОЛНИТЕЛЬ}} удалил ключ API {{RAW1}}",
+            "promoted": "{{EXECUTOR}} повысил {{CHANGEDUSER}} с {{OLDRANK}} до {{NEWRANK}}",
+            "demoted": "{{EXECUTOR}} понизил {{CHANGEDUSER}} с {{OLDRANK}} до {{NEWRANK}}",
+            "grouplanguagechange": "{{EXECUTOR}} изменил язык группы на {{NEWVALUE}}",
+            "rankset": "{{EXECUTOR}} установил ранг {{CHANGEDUSER}} на {{NEWRANK}}",
+            "pendaccepted": "{{EXECUTOR}} принял ожидающий запрос от {{CHANGEDUSER}}",
+            "pendrejected": "{{EXECUTOR}} отклонил ожидающий запрос от {{CHANGEDUSER}}",
+            "changesetting": "{{EXECUTOR}} изменил настройку {{RAW1}} с {{OLDVALUE}} на {{NEWVALUE}}",
+            "blacklisted": "{{EXECUTOR}} внесен в черный список {{CHANGEDUSER}}",
+            "unblacklisted": "{{EXECUTOR}} удалил {{CHANGEDUSER}} из черного списка"
+        },
+        "verify": {
+            "verification": "Clanny Верификация",
+            "notVerifiedExternalAvailable": "Похоже, что вы не прошли верификацию у нас\n\n Мы можем импортировать вашу верификацию от следующих поставщиков: {{VERIFICATIONPROVIDERS}}\n",
+            "notVerifiedExternalDead": "Нам не удалось получить данные от следующих поставщиков: {{VERIFICATIONPROVIDERS}}",
+            "verificationTransferred": "Мы успешно передали ваши данные от {{VERIFICATIONPROVIDER}}. Теперь вы: {{USERNAME}}",
+            "verificationStatusVerifiedTitle": "Вы верифицированы!",
+            "verificationStatusVerifiedDescr": "Здравствуйте {{USERNAME}}.\n\n Здесь вы можете изменить свои проверочные данные",
+            "verificationDeleted": "Ваши проверочные данные были удалены, чтобы снова использовать Clanny, пожалуйста, запустите `/verify`",
+            "verificationChange": "Ваши проверочные данные готовы к изменению, пожалуйста, запустите `/verify`"
+        },
+        "leaderboard": {
+            "previous": "Предыдущий",
+            "next": "Следующий"
+        },
+        "promotedemote": {
+            "promoteSuccess": "{{USER}} успешно повышен до {{NEWRANK}} с {{OLDRANK}}",
+            "demoteSuccess": "{{USER}} успешно понижен в должности до {{NEWRANK}} с {{OLDRANK}}",
+            "actionFailedTitle": "Упс! Что-то пошло не так",
+            "actionFailed": "{{ACTION}} завершилось неудачей.\n\n{{ERROR}}\n\nЕсли вы не понимаете эту ошибку, пожалуйста, перейдите к [WORK IN PROGRESS].",
+            "promote": "продвижения",
+            "demote": "понизить",
+            "Promote": "Продвижения",
+            "Demote": "Понизить"
+        },
+        "medals": {
+            "ViewGroupTitle": "Медали этой группы",
+            "ViewUserTitle": "Медали {{USER}}",
+            "MedalCreatedTitle": "Медаль была создана",
+            "MedalIDAlreadyUsed": "Этот ID медали уже используется другой медалью",
+            "AwardedTitle": "Пользователь успешно получил эту медаль",
+            "AwardedDescr": "У этого пользователя теперь есть {AMOUNT}} этих медалей",
+            "UnAwardedNoMedal": "У этого пользователя нет такой медали",
+            "UnAwardedTitle": "1 медаль этого типа была удалена у этого пользователя",
+            "UnAwardedDescr": "У этого пользователя теперь есть {{AMOUNT}} этих медалей",
+            "EditDoesntExist": "Этой медали не существует!",
+            "Edited": "Медаль была успешно изменена",
+            "Deleted": "Медаль была успешно удалена"
+        },
+        "api": {
+            "UnableTitle": "ClannyAPI не может управляться через Discord",
+            "UnableDescr": "Мы не разрешаем пользователям управлять ClannyAPI через Discord, для управления ClannyAPI, пожалуйста, используйте  [the dashboard](https://dashboard.clanny.systems/)"
+        },
+        "pendingjoin": {
+            "PendingListTitle": "Ожидающие пользователи",
+            "PendingListDescr": "Следующие пользователи подали заявку на вступление в эту группу и ожидают одобрения",
+            "Accepted": "Принятый",
+            "Declined": "Отказано",
+            "AcceptedDeclinedTitle": "{{STATUS}} {{USER}}"
+        },
+        "setrank": {
+            "SetRankResult": "Ранг {{USER}} был установлен на {{RANK}}"
+        },
+        "help": {
+            "HelpTitle": "Помочь",
+            "HelpDescr": "Мы предоставляем помощь на нашем сервере поддержки https://discord.gg/WWYsWjr и на нашей вики-странице по адресу https://wiki.clanny.systems/"
+        },
+        "settings": {
+            "ViewTitle": "{{SETTING} значение",
+            "ViewDescr": "Значение {{SETTING}} равно {{VALUE}}",
+            "ChangeTitle": "{{SETTING}} была изменена",
+            "ChangeDescr": "Значение {{SETTING}} было изменено с {{OLD}} на {{NEW}}"
+        },
+        "settings_types": {
+            "XpName": "Имя Xp",
+            "ProgressBarYesEmoji": "Индикатор выполнения да эмодзи",
+            "ProgressBarNoEmoji": "Индикатор выполнения без эмодзи"
+        },
+        "shout": {
+            "Shouted": "Отправлено сообщение в группу",
+            "ShoutedDescr": "**WARNING**\n\nсОобщения, отправленные группам, регистрируются и отслеживаются. Если будет обнаружено, что вы отправляете неподобающие сообщения, вы будете забанены в Clanny, а если вы являетесь владельцем группы, ваша группа может быть забанена в Clanny.",
+            "ShoutRemoved": "Групповое сообщение было удалено",
+            "ShoutRemovedDescr": "`/shout` было удалено"
+        },
+        "blacklist": {
+            "ViewTitle": "Пользователи, внесенные в Черный список ({{PAGE}}/{{PAGES}}) ",
+            "UserStateChanged": "{{USER} состояние черного списка было изменено",
+            "Blacklisted": "NOT TRANSLATED YET",
+            "BlacklistedTitle": "**{{USER}} занесен в черный список этой группы!**"
+        },
+        "common": {
+            "Yes": "Да",
+            "No": "Нет",
+            "yes": "нет",
+            "no": "да",
+            "NotApplicable": "недоступно",
+            "Enabled": "Включен",
+            "Disabled": "Отключен",
+            "enabled": "включен",
+            "disabled": "отключен",
+            "Enable": "Включить",
+            "Disable": "Отключить",
+            "enable": "включить",
+            "disable": "отключить"
+        }
+    },
+    "refs": {
+        "ArgumentsErrors": {
+            "OptionalOrRequired": "\n\n*`(Argument)` Является необязательным, требуется `[Argument]`*"
+        }
+    }
+}

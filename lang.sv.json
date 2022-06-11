@@ -1,0 +1,208 @@
+{
+    "data": {
+        "permissionLevels": {
+            "Normal": "Normal",
+            "Officer": "Officer",
+            "HICOM": "HICOM",
+            "Owner": "Ägare",
+            "GroupOwner": "Grupp ägare",
+            "Developer": "Utvecklare",
+            "Impossible": "Omöjligt"
+        },
+        "index": {
+            "ComponentEntryPointUndefinedTitle": "KRITIKS: ComponentEntryPoint definierades inte",
+            "ComponentEntryPointUndefinedDescr": "**Kontacta {{COM:user.piano1029}} så fort som möjligt**__\n\n{{COM:links.supportServer}}",
+            "VerificationRequiredTitle": "Roblox verifiering krävs",
+            "VerificationRequiredDescr": "För att använda Clanny så måste du verifierann'/verify'",
+            "NoAccessToBeta": "Du har inte tillgång till beta versionen av Clanny",
+            "InsufficientPermissionsTitle": "Ottilräckliga behörigheter",
+            "InsufficientPermissionsDescr": "Du behöver ha {{REQUIRED_PERMS}} behörigheter men du har {{USER_PERMS}} behörigheter!",
+            "IncorrectArgumentsTitle": "Felaktiga argument",
+            "IncorrectArgumentsDescr": "Det understrukna argumentet är felaktigt/saknas\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors. OptionalOrRequired}}",
+            "DoesNotExistOnRobloxTitle": "Användare finns inte på Roblox",
+            "DoesNotExistOnRobloxDescr": "Den understruckna argument har en användar nam som inte finns på Roblox\n\n{{GENERATED_ARGUMENTS-INFO}}{{REF:ArgumentsErrors. OptionalOrRequired}}",
+            "UnableToParseTitle": "Felaktiga argument",
+            "UnableToParseDescr": "Det understrukna argumentet kunde inte tolkas av SmartArgs\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:AgumentsErrors.OptionalOrRequired}}",
+            "UserNotVerifiedTitle": "Användare är inte verifierad med Clanny",
+            "UserNotVerifiedDescr": "Den understruckna argument har en användare som inte är verifierad med calnny. Snälla fråga dem att göra `/verify`\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors.OptionalOrRequired}}",
+            "PrefixBasedCMDDeprecation": "Clanny använder inte prefixbaserade kommandon längre, använd snedstreckskommandona från och med nu on\n\n{{SLASHCOMMAND}}"
+        },
+        "language": {
+            "SelectLanguageBelow": "Välj ditt språk nedan. \n\nlf ditt språk är inte med på listan, överväga att lägga den på WORK_IN_PROGRESS",
+            "LanguageUpdatedResponse": "Ditt språk är nu {{LANGUAGENAME}}"
+        },
+        "rank": {
+            "SelectRankBelow": "Välj den rang som ska förandras nedan.nlf din klass finns inte på listan gör `/rank update`",
+            "RankUpdated": "Rang uppdaterad",
+            "RoleUpdate": "NOT TRANSLATED YET",
+            "ExpReqUpdate": "{{RANKNAME}}'s xp krav ställd till {{XPREQ}}",
+            "PrefixUpdate": "{{RANKNAME}}'s prefix ställd till {{PREFIX}}",
+            "IncorrectRank": "Felaktig rang",
+            "RankDoesNotExist": "Den angivna rang finns inte i din grupp.",
+            "LockStatus": "Rang är för närvarande {{STATUS}}",
+            "Unlocked": "Olåst",
+            "Locked": "Låst",
+            "Unlock": "Lås upp",
+            "Lock": "Lås",
+            "unlocked": "olåst",
+            "locked": "låst",
+            "unlock": "lås upp",
+            "lock": "lås",
+            "__note1": "Delar av meddelanden kan ha flera kopior av dem",
+            "XPReqStatus": "XP krav: {{REQ}}",
+            "ChangeXPReq": "Byt XP krav",
+            "ChangeRole": "Byt roll",
+            "PrefixStatus": "Prefix aktiverad: {{STATUS}}",
+            "PrefixStatus2": "Prefix: {{STATUS}}",
+            "ChangePrefix": "Byt prefix"
+        },
+        "xp": {
+            "__note1": "NY betyder 'inte din', Y betyder 'din'",
+            "__note2": "GO betyder 'Grupp ägare'!",
+            "ProgressTitleNY": "{{USERNAME}}'s framsteg",
+            "ProgressTitleY": "Dina amsteg",
+            "ProgressDescriptionNYGO": "**{{USERNAME}}**\n\n{{USERNAME}} har {{XP}}xp!\n{{USERNAME}} äger denna grupp, nice!",
+            "ProgressDescriptionNY": "**{{USERNAME}}**\n\n{{USERNAME}} har {{XP}}xp!\n för att nå nästa rang {{NEXTRANK}} {{USERNAME}} behöver {{XPFORNEXTRANK}} mer xp!",
+            "ProgressDescriptionGO": "**{{USERNAME}}**\n\nDu har {{XP}}xp!\nFör att nå {{NEXTRANK}} behöver du {{XPFORNEXTRANK}} mer xp!",
+            "ProgressDescription": "**{{USERNAME}}**\n\nDu har {{XP}}xp!\n För att nå {{NEXTRANK}} så behöver du {{XPFORNEXTRANK}} mer xp!",
+            "GettingPromotedNY": "{{USERNAME}} borde bli befodrad just nu",
+            "GettingPromoted": "Du borde bli befodrad just nu",
+            "XPAddedTitle": "XP har blivit tillagd framgångsrikt",
+            "XPAddedDesc": "**{{USERNAME}}**: {{OLD}} --> {{NEW}}"
+        },
+        "audits": {
+            "ChannelUpdatedTitle": "Revision kanal har blivit updaterat",
+            "ChannelUpdatedDescr": "En webhook har skapats för att skicka granskningsmeddelandena. Om du har en anti raid-bot som Wick, se till att placera den här webhooken (Webhook ID: '{{ID}}') på vitlistan mot skräppost",
+            "xpadded": "XP lagt",
+            "xpremoved": "XP bortagen",
+            "xpset": "XP ställd",
+            "rankchanged": "Rang inställningar förändrades",
+            "ranksupdated": "Rangs uppdaterat",
+            "Status": "Status: {{STATUS}}",
+            "selectAuditTypeBelow": "Välj en granskningstyp att redigera nedan",
+            "AuditLogs": "**revision detaljer**"
+        },
+        "auditLogging": {
+            "xpadded": "{{EXECUTOR}} la till {{AMOUNT}}xp till {{CHANGEDUSER]]. {{OLDXP}} >>> {{NEWXP}}",
+            "xpremoved": "{{EXECUTOR}} tog bort {{AMOUNT}}xp från {{CHANGEDUSER}}. {{OLDXP}} >>> {{NEWXP}}",
+            "xpset": "{{EXECUTOR}} ställ {{CHANGEDUSER}}'s xp till {{AMOUNT}}xp. {{OLDXP}} >>> {{NEWXP}}",
+            "rankchanged": "{{EXECUTOR}} har bytt rang inställningar",
+            "ranksupdated": "{{EXECUTOR}} har synkroniserad grupp inställningarna",
+            "medalcreated": "{{EXECUTOR}} skapade medaljen {{RAW1}}",
+            "medaledited": "{{EXECUTOR}} redigerade medaljen {{RAW1}}'s {{RAW2}} för att vara {{NEWVALUE}} istället för {{OLDVALUE}}",
+            "medaldeleted": "{{EXECUTOR}} tog bort medaljen {{RAW1}}",
+            "medalawarded": "{{EXECUTOR}} gav medaljen {{RAW1}} till {{CHANGEDUSER}}",
+            "medalunawarded": "{{EXECUTOR}} tog bort medaljen {{RAW1}} från {{CAHNGEDUSER}}",
+            "apikeycreated": "{{EXECUTOR}} skapade API nyckel {{RAW1}}",
+            "apikeydeleted": "{{EXECUTOR}} tog bort API nyckeln {{RAW1}}",
+            "promoted": "{{EXECUTOR}} har befodrat {{CHANGEDUSER}} från {{OLDRANK till {{NEWRANK}}",
+            "demoted": "{{EXECUTOR}} har degraderat {{CHANGEDUSER}} från {{OLDRANK till {{NEWRANK}}",
+            "grouplanguagechange": "{{EXECUTOR}} har byt grupp språken till {{NEWVALUE}}",
+            "rankset": "{{EXECUTOR}} har ställt {{CHANGEDUSER}}'s rang till {{NEWRANK}}",
+            "pendaccepted": "{{EXECUTOR}} har accepterat den väntade begären från {{CHANGEDUSER}}",
+            "pendrejected": "{{EXECUTOR}} har avvisat den väntande begären från {{CHANGEDUSER}}",
+            "changesetting": "{{EXECUTOR}} har byt inställningarna {{RAW1}} från {{OLDVALUE}} till {{NEWVALUE}}",
+            "blacklisted": "{{EXECUTOR}} har svartlistad {{CHANGEDUSER}}",
+            "unblacklisted": "{{EXECUTOR}} har tagit bort svartlistningen från {{CHANGEDUSER}}"
+        },
+        "verify": {
+            "verification": "Clanny verifikation",
+            "notVerifiedExternalAvailable": "Det ser ut som att du inte är verifierad med oss\n\nVi kan importera din verifikation från dem följande leverantörerna: {{VERIFICATIONPROVIDERS}}\n",
+            "notVerifiedExternalDead": "Vi lyckades inte få fram data från dem följande leverantärerna: {{VERIFICATIONPROVIDERS}}",
+            "verificationTransferred": "Vi har lyckats att överföra din data från {{VERIFICATIONPROVIDERS}}. Du är nu: {{USERNAME}}",
+            "verificationStatusVerifiedTitle": "Du är verifierad!",
+            "verificationStatusVerifiedDescr": "Hej {{USERNAME}}. \n\nHär kan du ändra din verifikation data",
+            "verificationDeleted": "Din verifikation data har blivit bortagen, för att använda Clanny igen så måste du skriva `/verify`",
+            "verificationChange": "Din verifikation data har blivit redo att bli ändrad, snälla skriv `/verify`"
+        },
+        "leaderboard": {
+            "previous": "Föredetta",
+            "next": "Nästa"
+        },
+        "promotedemote": {
+            "promoteSuccess": "{{USER}} har blivit framgångsrikt befodrad till {{NEWRANK}} från {{OLDRANK}}",
+            "demoteSuccess": "{{USER}} har blivit degraterad från {{NEWRANK}} från {{OLDRANK}}",
+            "actionFailedTitle": "Whoops! Någonting gick fel",
+            "actionFailed": "{{ACTION}} har mysslickat. \n\n{{ERROR}} om du inte förstår detta problem snälla gå till {{WORK IN PROGRESS}",
+            "promote": "befodra",
+            "demote": "degradera",
+            "Promote": "Befodra",
+            "Demote": "Degradera"
+        },
+        "medals": {
+            "ViewGroupTitle": "Denn grupps medaljer",
+            "ViewUserTitle": "{{USER}}s medaljer",
+            "MedalCreatedTitle": "Dena medalj har blivit skapad",
+            "MedalIDAlreadyUsed": "Denna medaljs ID används redan av en annan medalj",
+            "AwardedTitle": "Anvämdare har fått dema medalj",
+            "AwardedDescr": "Denna användare har nu {{AMOUNT}} av dessa medaljer",
+            "UnAwardedNoMedal": "Denna användare har inte denna medalj",
+            "UnAwardedTitle": "1 medalj har blivit bortagen från denna användare",
+            "UnAwardedDescr": "Denna användare har {{AMOUNT}} av dessa medaljer",
+            "EditDoesntExist": "Denna medalj finns ej",
+            "Edited": "Denna medalj har blivit ändrad",
+            "Deleted": "Denna medalj har blivit bortagen"
+        },
+        "api": {
+            "UnableTitle": "ClannyAPI kan ej bli hanterad igenom Discord",
+            "UnableDescr": "Vi tillåter inte användare att hantera ClannyAPI igenom Discord, för att hantera ClannyAPI måste du använda [the dashboard](https://dashboard.clanny.systems/)"
+        },
+        "pendingjoin": {
+            "PendingListTitle": "Väntande användare",
+            "PendingListDescr": "Dem följande användare har förfrågat att bli accepterade i er grupp och väntar på att bli accepterade",
+            "Accepted": "Accepterad",
+            "Declined": "Avböjt",
+            "AcceptedDeclinedTitle": "{{STATUS}} {{USER}}"
+        },
+        "setrank": {
+            "SetRankResult": "{{USER}} har blivit inställd på {{RANK}}"
+        },
+        "help": {
+            "HelpTitle": "Hjälp",
+            "HelpDescr": "Vi ger hjälp i våran hjälp server https://discord.gg/WWYsWjr och på våran wiki  https://wiki.clanny.systems/"
+        },
+        "settings": {
+            "ViewTitle": "{{SETTINGS}}s värde",
+            "ViewDescr": "{{SETTING}}s värde är {{VALUE}}",
+            "ChangeTitle": "{{SETTING}} har blivit ändrade",
+            "ChangeDescr": "{{SETTING}}s värde har blivit ändra"
+        },
+        "settings_types": {
+            "XpName": "Xp namn",
+            "ProgressBarYesEmoji": "förloppsindikator ja emoji",
+            "ProgressBarNoEmoji": "förloppsindikator nej emoji"
+        },
+        "shout": {
+            "Shouted": "Shouted meddelande till gruppen",
+            "ShoutedDescr": "**WARNING**\n\nMeddelanden som ropas till grupper loggas och övervakas. Om du visar dig skrika olämpliga meddelanden kommer du att bli förbjuden från Clanny och om du äger gruppen kan din grupp bli förbjuden från Clanny.",
+            "ShoutRemoved": "Shout har tagits bort",
+            "ShoutRemovedDescr": "`/shout` har blivit bortagen."
+        },
+        "blacklist": {
+            "ViewTitle": "Svartlistsade användare ({{PAGE}}/{{PAGES}})",
+            "UserStateChanged": "{{USER}}s svartlistnings status har ändrats",
+            "Blacklisted": "Kan ej göra denna kommand, {{USER}} är svartlistad\n\n```{{REASON}}```",
+            "BlacklistedTitle": "**{{USER}} är svartlistad från denna grupp!**"
+        },
+        "common": {
+            "Yes": "Ja",
+            "No": "Nej",
+            "yes": "ja",
+            "no": "nej",
+            "NotApplicable": "N/A",
+            "Enabled": "Aktiverad",
+            "Disabled": "Av aktiverad",
+            "enabled": "aktiverad",
+            "disabled": "av aktiverad",
+            "Enable": "Aktivera",
+            "Disable": "Av aktivera",
+            "enable": "aktivera",
+            "disable": "av aktivera"
+        }
+    },
+    "refs": {
+        "ArgumentsErrors": {
+            "OptionalOrRequired": "\n\n*`(Argument)` Är valfri, `[Argument]` krävs*"
+        }
+    }
+}
