@@ -54,7 +54,8 @@
             "ChangeRole": "Change Role",
             "PrefixStatus": "Prefix Enabled: {{STATUS}}",
             "PrefixStatus2": "Prefix: {{STATUS}}",
-            "ChangePrefix": "Change Prefix"
+            "ChangePrefix": "Change Prefix",
+            "RoleStatus": "Role: {{STATUS}}"
         },
         "xp": {
             "__note1": "NY means 'not yours', Y means 'yours'!",
@@ -78,6 +79,16 @@
             "xpset": "XP Set",
             "rankchanged": "Rank settings changed",
             "ranksupdated": "Ranks updated",
+            "medalcreated": "Medal created",
+            "medaledited": "Medal edited",
+            "medaldeleted": "Medal deleted",
+            "medalawarded": "Medal awarded",
+            "medalunawarded": "Medal unawarded",
+            "apikeycreated": "API Key created",
+            "apikeydeleted": "API Key deleted",
+            "promoted": "User promoted",
+            "demoted": "User demoted",
+            "grouplanguagechange": "Group language changed",
             "Status": "Status: {{STATUS}}",
             "selectAuditTypeBelow": "Select an audit type to edit below",
             "AuditLogs": "**Audit details**"
@@ -121,7 +132,7 @@
         },
         "promotedemote": {
             "promoteSuccess": "{{USER}} has successfully been promoted to {{NEWRANK}} from {{OLDRANK}}",
-            "demoteSuccess" : "{{USER}} has successfully been demoted to {{NEWRANK}} from {{OLDRANK}}",
+            "demoteSuccess": "{{USER}} has successfully been demoted to {{NEWRANK}} from {{OLDRANK}}",
             "actionFailedTitle": "Whoops! Something went wrong",
             "actionFailed": "{{ACTION}} has failed.\n\n{{ERROR}}\n\nIf you do not understand this error please go to [WORK IN PROGRESS].",
             "promote": "promote",
