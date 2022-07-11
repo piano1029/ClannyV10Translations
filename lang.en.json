@@ -55,7 +55,10 @@
             "PrefixStatus": "Prefix Enabled: {{STATUS}}",
             "PrefixStatus2": "Prefix: {{STATUS}}",
             "ChangePrefix": "Change Prefix",
-            "RoleStatus": "Role: {{STATUS}}"
+            "RoleStatus": "Role: {{STATUS}}",
+            "workingOnIt": "Working on it...",
+            "syncCompleted": "Synchronization completed",
+            "syncCompletedDescr": "Rank synchronization completed with the following results,\nRanks added: {{RANKSADDED}}\nRanks updated: {{RANKSUPDATED}}\nError: {{ERROR}}"
         },
         "xp": {
             "__note1": "NY means 'not yours', Y means 'yours'!",
