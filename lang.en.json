@@ -25,7 +25,9 @@
             "UnableToParseDescr": "The underlined argument was unable to get parsed by SmartArgs\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors.OptionalOrRequired}}",
             "UserNotVerifiedTitle": "User has not been verified with Clanny",
             "UserNotVerifiedDescr": "The underlined argument got a user which has not been verified with Clanny. Please ask them to run `/verify`\n\n{{GENERATED_ARGUMENTS_INFO}}{{REF:ArgumentsErrors.OptionalOrRequired}}",
-            "PrefixBasedCMDDeprecation": "Clanny doesn't use prefix based commands anymore, use the slash commands from now on\n\n{{SLASHCOMMAND}}"
+            "PrefixBasedCMDDeprecation": "Clanny doesn't use prefix based commands anymore, use the slash commands from now on\n\n{{SLASHCOMMAND}}",
+            "CommandErrorTitle": "An error occurred",
+            "CommandErrorDescr": "We messed up, this error has been automatically reported to the dev."
         },
         "language": {
             "SelectLanguageBelow": "Select your language below.\n\nIf your language is not on the list, consider adding it at clanny.systems",
@@ -37,6 +39,7 @@
             "RoleUpdate": "{{RANKNAME}}'s role set to {{ROLE}}",
             "ExpReqUpdate": "{{RANKNAME}}'s xp requirement set to {{XPREQ}}",
             "PrefixUpdate": "{{RANKNAME}}'s prefix set to {{PREFIX}}",
+            "PermUpdate": "{{RANKNAME}}'s permission level set to {{PERM}}",
             "IncorrectRank": "Incorrect Rank",
             "RankDoesNotExist": "The rank specified does not exist in your group",
             "LockStatus": "Rank is currently {{STATUS}}",
@@ -56,6 +59,7 @@
             "PrefixStatus2": "Prefix: {{STATUS}}",
             "ChangePrefix": "Change Prefix",
             "RoleStatus": "Role: {{STATUS}}",
+            "PermStatus": "Permissions: {{PERM}}",
             "workingOnIt": "Working on it...",
             "syncCompleted": "Synchronization completed",
             "syncCompletedDescr": "Rank synchronization completed with the following results,\nRanks added: {{RANKSADDED}}\nRanks updated: {{RANKSUPDATED}}\nError: {{ERROR}}"
