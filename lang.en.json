@@ -76,7 +76,13 @@
             "GettingPromotedNY": "{{USERNAME}} should be getting promoted right now",
             "GettingPromoted": "You should be getting promoted right now",
             "XPAddedTitle": "XP has been added successfully",
-            "XPAddedDesc": " **{{USERNAME}}**: {{OLD}} --> {{NEW}}"
+            "XPAddedDesc": " **{{USERNAME}}**: {{OLD}} --> {{NEW}}",
+            "BulkNoUsersProvidedTitle": "No users were provided",
+            "BulkNoUsersProvidedDescr": "Make sure to provide Roblox usernames separated by spaces.\nExample: `user1 user2 user3 user4`",
+            "BulkWaiting": "Please wait",
+            "BulkResultsTitle": "Bulk results",
+            "BulkResultsDescT": "Bulk has completed\nSucceeded: {{SUCCESSUSERS}}\nFailed: {{FAILEDUSERS}}\n\n**Results**\n\n",
+            "BulkResultsDescB": "Succeeded: ✅\nFailed: 🛑"
         },
         "audits": {
             "ChannelUpdatedTitle": "The audits channel has been successfully updated",
