@@ -137,7 +137,17 @@
             "verificationStatusVerifiedTitle": "You are verified!",
             "verificationStatusVerifiedDescr": "Hello {{USERNAME}}.\n\nHere you can modify your verification data",
             "verificationDeleted": "Your verification data has been deleted, to use Clanny again please run `/verify`",
-            "verificationChange": "Your verification data has been made ready to be changed, please run `/verify`"
+            "verificationChange": "Your verification data has been made ready to be changed, please run `/verify`",
+            "manualOption": "Manual verification",
+            "manualModalTitle": "Manual verification",
+            "manualWhatIsYourRobloxUsername": "What's your Roblox username?",
+            "manualPleaseJoin": "To verify join the Roblox game",
+            "manualPleaseJoinDescr": "Please join the following Roblox game, https://www.roblox.com/games/6756527529/Clanny-Verification-Center",
+            "gotMyKey": "Got my key",
+            "manualPleaseEnterKey": "Please enter the key provided by the game",
+            "manualComplete": "You are now verified as {{USERNAME}}!",
+            "manualKeyIncorrectTitle": "Key incorrect",
+            "manualKeyIncorrectDescr": "The key you provided is incorrect. The following information is logged for security reasons:\nUsername you tried to verify as (public information)\nYour Discord username and ID (public information)\nThe key it should have been and the key you provided (both created by Clanny)\nNo private information was logged."
         },
         "leaderboard": {
             "previous": "Previous",
