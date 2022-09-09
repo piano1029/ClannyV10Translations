@@ -62,7 +62,8 @@
             "PermStatus": "Permissions: {{PERM}}",
             "workingOnIt": "Working on it...",
             "syncCompleted": "Synchronization completed",
-            "syncCompletedDescr": "Rank synchronization completed with the following results,\nRanks added: {{RANKSADDED}}\nRanks updated: {{RANKSUPDATED}}\nError: {{ERROR}}"
+            "syncCompletedDescr": "Rank synchronization completed with the following results,\nRanks added: {{RANKSADDED}}\nRanks updated: {{RANKSUPDATED}}\nError: {{ERROR}}",
+            "deleted": "Rank deleted"
         },
         "xp": {
             "__note1": "NY means 'not yours', Y means 'yours'!",
