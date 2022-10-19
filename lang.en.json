@@ -65,7 +65,8 @@
             "syncCompletedDescr": "Rank synchronization completed with the following results,\nRanks added: {{RANKSADDED}}\nRanks updated: {{RANKSUPDATED}}\nError: {{ERROR}}",
             "deleted": "Rank deleted",
             "Ranks": "Ranks",
-            "rankItem": "ID: {{RANKID}}\nNumber: {{RANK}}\nXP: {{XP}}"
+            "rankItem": "ID: {{RANKID}}\nNumber: {{RANK}}\nXP: {{XP}}",
+            "bigRankItem": "**{{RANKNAME}}** (ID: {{RANKID}})\nRank Number: {{RANK}}\nXP Requirement: {{XP}}"
         },
         "xp": {
             "__note1": "NY means 'not yours', Y means 'yours'!",
