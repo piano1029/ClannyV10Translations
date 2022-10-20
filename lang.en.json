@@ -67,7 +67,8 @@
             "Ranks": "Ranks",
             "rankItem": "ID: {{RANKID}}\nNumber: {{RANK}}\nXP: {{XP}}",
             "bigRankItem": "**{{RANKNAME}}** (ID: {{RANKID}})\nRank Number: {{RANK}}\nXP Requirement: {{XP}}",
-            "selectARank": "Select a rank"
+            "selectARank": "Select a rank",
+            "edit": "Edit"
         },
         "xp": {
             "__note1": "NY means 'not yours', Y means 'yours'!",
