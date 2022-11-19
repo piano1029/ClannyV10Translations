@@ -162,7 +162,10 @@
             "promote": "promote",
             "demote": "demote",
             "Promote": "Promote",
-            "Demote": "Demote"
+            "Demote": "Demote",
+            "cannotPromoteSelf": "You cannot promote yourself!",
+            "cannotPromoteSameRank": "You cannot promote users on the same rank as you!",
+            "cannotPromoteHigherRank": "You cannot promote users on a higher rank than you!"
         },
         "medals": {
             "ViewGroupTitle": "This group's medals",
